@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Cleaning..."
+git submodule --quiet foreach git clean -f
+
+echo "Updating..."
+git submodule --quiet foreach git pull -q origin master
+
+echo "Done!"
