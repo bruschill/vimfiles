@@ -2,6 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+au FileType javascript set dictionary+=$HOME/.vim/dict/node.dict
+
 syntax enable
 
 set background=dark
