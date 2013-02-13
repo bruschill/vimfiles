@@ -41,9 +41,12 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 set wildignore+=*.swp,*~,._*
 
-"backup/swap directories
-set backupdir=~/.vim/.backup/    " where to put backup files.
-set dir=~/.vim/.temp
+"turning of swap/backup files
+set nobackup
+set nowritebackup
+set noswapfile
+
+"setting tags directory
 set tags=~/.vim/tags
 
 "autosave when focus lost
