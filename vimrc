@@ -9,7 +9,7 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-set guifont=Inconsolata-g:h11
+set guifont=Consolas:h13
 
 set vb t_vb=
 
