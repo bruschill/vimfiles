@@ -10,6 +10,8 @@ set guifont=Consolas:h13
 nmap  <silent> <Leader>ve  :e ~/.gvimrc<CR>
 nmap  <silent> <Leader>vr  :so ~/.gvimrc<CR>
 
+set autoread
+
 if has("gui_macvim")
   "map Command + Shift + t to new tab
   "map Command + t to CtrlP
