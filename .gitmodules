@@ -134,3 +134,6 @@
 	path = bundle/vim-stylus
 	url = git://github.com/wavded/vim-stylus.git
   ignore = dirty
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
