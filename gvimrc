@@ -4,8 +4,6 @@ set go-=T
 set go-=r
 set go-=L
 
-set guifont=Consolas:h13
-
 "gvimrc edit/reload mappings
 nmap  <silent> <Leader>ve  :e ~/.gvimrc<CR>
 nmap  <silent> <Leader>vr  :so ~/.gvimrc<CR>
@@ -95,7 +93,7 @@ else
 
   imap <A-]> <Esc>>>i
   imap <A-[> <Esc><<i
- 
+
   " Bubble single lines
   nmap <C-Up> [e
   nmap <C-Down> ]e
