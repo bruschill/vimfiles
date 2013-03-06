@@ -1,7 +1,3 @@
-""
-"" General Mappings (Normal, Visual, Operator-pending)
-""
-
 " Toggle paste mode
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
