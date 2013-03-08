@@ -1,6 +1,6 @@
 execute pathogen#infect()
+syntax on
 filetype plugin indent on
-syntax enable
 
 set background=dark
 colorscheme solarized
@@ -14,6 +14,7 @@ set ruler             " Show line and column number
 set encoding=utf-8    " Set default encoding to UTF-8
 set autoread
 set vb t_vb=
+set ai
 
 "whitespace
 set nowrap                        " don't wrap lines
