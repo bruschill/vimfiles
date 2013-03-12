@@ -67,6 +67,9 @@ if has("autocmd")
   endif
 endif
 
+"remap mapleader
+let mapleader=","
+
 "vimrc edit/reload mappings
 nmap  <silent> <Leader>ve  :e ~/.vimrc<CR>
 nmap  <silent> <Leader>vr  :so ~/.vimrc<CR>
