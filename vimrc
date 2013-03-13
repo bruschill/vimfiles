@@ -57,6 +57,11 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+"folding options
+set foldmethod=syntax
+set foldlevel=15
+set foldnestmax=15
+
 "setting tags directory
 set tags=~/.vim/tags
 
