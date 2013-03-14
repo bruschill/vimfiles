@@ -8,41 +8,48 @@ colorscheme solarized
 set guifont=Consolas:h13
 
 "general
-set nocompatible      " Use vim, no vi defaults
-set number            " Show line numbers
-set ruler             " Show line and column number
-set encoding=utf-8    " Set default encoding to UTF-8
+set encoding=utf-8
 set autoread
 set vb t_vb=
-set ai
+set nocompatible
+set hidden
+set nowrap
+set history=10000
+set cursorline
+set switchbuf=useopen
+set scrolloff=3
+set backspace=indent,eol,start
+set timeout
+set timeoutlen=1000
+set ttimeoutlen=100
 
-"whitespace
-set nowrap                        " don't wrap lines
-set tabstop=2                     " a tab is two spaces
-set shiftwidth=2                  " an autoindent (with <<) is two spaces
-set expandtab                     " use spaces, not tabs
+"tab settings
+set expandtab
 set smarttab
-set backspace=indent,eol,start    " backspace through everything in insert mode
-
-if exists("g:enable_mvim_shift_arrow")
-  let macvim_hig_shift_movement = 1 " mvim shift-arrow-keys
-endif
-
-"listchars
-set list                          " Show invisible characters
-set listchars=""                  " Reset the listchars
-set listchars=tab:\ \             " a tab should display as "  ", trailing whitespace as "."
-set listchars+=trail:.            " show trailing spaces as dots
-set listchars+=extends:>          " The character to show in the last column when wrap is
-                                  " off and the line continues beyond the right of the screen
-set listchars+=precedes:<         " The character to show in the last column when wrap is
-                                  " off and the line continues beyond the right of the screen
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
 
 "searching
-set hlsearch    " highlight matches
-set incsearch   " incremental searching
-set ignorecase  " searches are case insensitive...
-set smartcase   " ... unless they contain at least one capital letter
+set showmatch
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
+"line numbers
+set number
+set ruler
+set numberwidth=2
+
+"listchars
+set list
+set listchars=""
+set listchars=tab:\ \
+set listchars+=trail:.
+set listchars+=extends:>
+set listchars+=precedes:<
 
 "wildmenu
 set wildmenu
