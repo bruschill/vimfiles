@@ -68,15 +68,27 @@ set noswapfile
 "setting tags directory
 set tags=~/.vim/tags
 
-"autosave when focus lost
-if has("autocmd")
-  if exists("g:autosave_on_blur")
-    au FocusLost * silent! wall
+"clear search map
+function! MapCR()
+  if &ft == "qf"
+    unmap <cr>
+  else
+    nnoremap <cr> :nohlsearch<cr>
   endif
-endif
+endfunction
+
+au FileType * call MapCR()
+
+au BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
 
 "remap mapleader
 let mapleader=","
+
+"hashrocket insert map
+imap <c-l> <space>=><space>
 
 "vimrc edit/reload mappings
 nmap  <silent> <Leader>ve  :e ~/.vimrc<CR>
@@ -89,5 +101,3 @@ endfor
 for f in split(glob('~/.vim/config/plugin/*.vim'), '\n')
   exe 'source' f
 endfor
-
-au FileType javascript set dictionary+=$HOME/.vim/dict/node.dict
