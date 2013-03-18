@@ -68,16 +68,7 @@ set noswapfile
 "setting tags directory
 set tags=~/.vim/tags
 
-"clear search map
-function! MapCR()
-  if &ft == "qf"
-    unmap <cr>
-  else
-    nnoremap <cr> :nohlsearch<cr>
-  endif
-endfunction
-
-au FileType * call MapCR()
+nnoremap <cr> :nohlsearch<cr>
 
 au BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
