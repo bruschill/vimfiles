@@ -68,7 +68,7 @@ set noswapfile
 "setting tags directory
 set tags=~/.vim/tags
 
-nnoremap <cr> :nohlsearch<cr>
+nnoremap <cr> :nohl<cr>
 
 au BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
