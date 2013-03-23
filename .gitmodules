@@ -10,10 +10,6 @@
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
   ignore = dirty
-[submodule "bundle/gist-vim"]
-	path = bundle/gist-vim
-	url = git://github.com/mattn/gist-vim.git
-  ignore = dirty
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
@@ -33,10 +29,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-  ignore = dirty
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = git://github.com/majutsushi/tagbar.git
   ignore = dirty
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
@@ -78,10 +70,6 @@
 	path = bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
   ignore = dirty
-[submodule "bundle/vim-slim"]
-	path = bundle/vim-slim
-	url = git://github.com/slim-template/vim-slim.git
-  ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
@@ -89,10 +77,6 @@
 [submodule "bundle/yaml-vim"]
 	path = bundle/yaml-vim
 	url = git://github.com/ingydotnet/yaml-vim.git
-  ignore = dirty
-[submodule "bundle/webapi-vim"]
-	path = bundle/webapi-vim
-	url = git://github.com/mattn/webapi-vim.git
   ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
