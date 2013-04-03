@@ -15,7 +15,7 @@
 	url = git://github.com/scrooloose/nerdcommenter.git
   ignore = dirty
 [submodule "vim-numbertoggle"]
-	path = vim-numbertoggle
+	path = bundle/vim-numbertoggle
 	url = git://github.com/jeffkreeftmeijer/vim-numbertoggle.git
   ignore = dirty
 [submodule "bundle/scss-syntax"]
