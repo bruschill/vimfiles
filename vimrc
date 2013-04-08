@@ -18,7 +18,6 @@ set nowrap
 set history=10000
 set cursorline
 set switchbuf=useopen
-set scrolloff=3
 set backspace=indent,eol,start
 set timeout
 set timeoutlen=1000
