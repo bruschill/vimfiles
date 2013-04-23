@@ -105,3 +105,6 @@
 [submodule "bundle/vim-numbers"]
 	path = bundle/vim-numbers
 	url = https://github.com/bruschill/vim-numbers.git
+[submodule "bundle/vim-eunuch"]
+	path = bundle/vim-eunuch
+	url = git://github.com/tpope/vim-eunuch.git
