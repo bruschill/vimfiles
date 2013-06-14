@@ -20,7 +20,7 @@ set cursorline
 set switchbuf=useopen
 set backspace=indent,eol,start
 set timeout
-set timeoutlen=1000
+set timeoutlen=250
 set ttimeoutlen=100
 
 "tab settings
@@ -68,11 +68,6 @@ set noswapfile
 set tags=~/.vim/tags
 
 nnoremap <cr> :nohl<cr>
-
-au BufReadPost *
-    \ if line("'\"") > 0 && line("'\"") <= line("$") |
-    \   exe "normal g`\"" |
-    \ endif
 
 "remap mapleader
 let mapleader=","
