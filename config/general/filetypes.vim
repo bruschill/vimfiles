@@ -24,13 +24,4 @@ if has("autocmd")
   au BufNewFile,BufRead *.git/{,modules/**/}{COMMIT_EDIT,MERGE_}MSG set ft=gitcommit
   au Filetype gitcommit setlocal textwidth=72
   au FileType gitcommit call setpos('.', [0, 1, 1, 0])
-
-  " Remember last location in file, but not for commit messages.
-  au BufReadPost * if &filetype !~ '^git\c' && line("'\"") > 0 && line("'\"") <= line("$")
-    \| exe "normal! g`\"" | endif
-
-  au BufReadPost *
-      \ if line("'\"") > 0 && line("'\"") <= line("$") |
-      \   exe "normal g`\"" |
-      \ endif
 endif
