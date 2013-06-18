@@ -1,6 +1,5 @@
 if has("statusline") && !&cp
-  set laststatus=2  " always show the status bar
+  set laststatus=2
 
-  " Start the status line
   set statusline=%f\ %m\ %r%=Line:%l\ Column:%c\ 
 endif
