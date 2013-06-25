@@ -59,6 +59,10 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 set wildignore+=*.swp,*~,._*
 
+"splits
+set splitbelow
+set splitright
+
 "turning of swap/backup files
 set nobackup
 set nowritebackup
@@ -67,6 +71,7 @@ set noswapfile
 "setting tags directory
 set tags=~/.vim/tags
 
+"mapping enter to clear search when pressed
 nnoremap <cr> :nohl<cr>
 
 "remap mapleader
