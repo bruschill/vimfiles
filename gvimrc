@@ -13,11 +13,6 @@ if has("gui_macvim")
   "map Command + t to CtrlP
   macmenu &File.New\ Tab key=<D-S-t>
 
-  if has("gui_running")
-    map <D-t> :CtrlP<CR>
-    imap <D-t> <ESC>:CtrlP<CR>
-  endif
-
   "map Command + P to nothing
   macmenu &File.Print key=<nop>
 endif
