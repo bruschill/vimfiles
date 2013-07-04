@@ -120,3 +120,6 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
+[submodule "bundle/vim-jst"]
+	path = bundle/vim-jst
+	url = https://github.com/briancollins/vim-jst.git
