@@ -46,10 +46,6 @@
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
   ignore = dirty
-[submodule "bundle/vim-rspec"]
-	path = bundle/vim-rspec
-	url = git://github.com/taq/vim-rspec.git
-  ignore = dirty
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
@@ -109,3 +105,6 @@
 [submodule "bundle/vim-indent-html"]
 	path = bundle/vim-indent-html
 	url = https://github.com/bitfyre/vim-indent-html.git
+[submodule "bundle/vim-rspec"]
+	path = bundle/vim-rspec
+	url = https://github.com/Keithbsmiley/rspec.vim.git
