@@ -117,3 +117,6 @@
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = https://github.com/Keithbsmiley/rspec.vim.git
+[submodule "bundle/madeofcode"]
+	path = bundle/madeofcode
+	url = https://github.com/bruschill/madeofcode.git
