@@ -5,8 +5,6 @@ if has("autocmd")
   " make Python follow PEP8 for whitespace ( http://www.python.org/dev/peps/pep-0008/ )
   au FileType python setlocal softtabstop=4 tabstop=4 shiftwidth=4
 
-  au FileType eruby setlocal softtabstop=4 tabstop=4 shiftwidth=4
-
   "git filetype/format settings
   au BufNewFile,BufRead *.git/{,modules/**/}{COMMIT_EDIT,MERGE_}MSG set ft=gitcommit
   au Filetype gitcommit setlocal textwidth=72
