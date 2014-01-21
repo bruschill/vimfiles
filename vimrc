@@ -64,19 +64,6 @@ set dir=~/.vim/.temp
 "setting tags directory
 set tags=~/.vim/tags
 
-"mapping enter to clear search when pressed
-nnoremap <cr> :nohl<cr>
-
-"remap mapleader
-let mapleader=","
-
-"hashrocket insert map
-imap <c-l> <space>=><space>
-
-"vimrc edit/reload mappings
-nmap  <silent> <Leader>ve  :e ~/.vimrc<CR>
-nmap  <silent> <Leader>vr  :so ~/.vimrc<CR>
-
 for f in split(glob('~/.vim/config/general/*.vim'), '\n')
   exe 'source' f
 endfor

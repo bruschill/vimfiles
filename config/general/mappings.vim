@@ -1,3 +1,13 @@
+"remap mapleader
+let mapleader=","
+
+"vimrc edit/reload mappings
+nmap  <silent> <Leader>ve  :e ~/.vimrc<CR>
+nmap  <silent> <Leader>vr  :so ~/.vimrc<CR>
+
+"mapping enter to clear search when pressed
+nnoremap <cr> :noh<cr>
+
 " format the entire file
 nmap <leader>fef ggVG=
 
@@ -15,3 +25,6 @@ nmap <leader>hs :set hlsearch! hlsearch?<CR>
 
 " Adjust viewports to the same size
 map <Leader>= <C-w>=
+
+"hashrocket insert map
+imap <c-l> <space>=><space>
