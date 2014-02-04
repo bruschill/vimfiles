@@ -22,10 +22,6 @@
 	path = bundle/vim-css3-syntax
 	url = git://github.com/hail2u/vim-css3-syntax.git
   ignore = dirty
-[submodule "bundle/vim-cucumber"]
-	path = bundle/vim-cucumber
-	url = git://github.com/tpope/vim-cucumber.git
-  ignore = dirty
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
