@@ -94,10 +94,6 @@
 	path = bundle/vim-jst
 	url = https://github.com/briancollins/vim-jst.git
   ignore = dirty
-[submodule "bundle/vim-indent-html"]
-	path = bundle/vim-indent-html
-	url = https://github.com/bitfyre/vim-indent-html.git
-  ignore = dirty
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = https://github.com/Keithbsmiley/rspec.vim.git
