@@ -22,6 +22,7 @@ let g:syntastic_html_tidy_ignore_errors = [
     \"proprietary attribute \"hidden\"",
     \"proprietary attribute \"ng\"",
     \"proprietary attribute \"data-ng\"",
+    \"is not recognized!"
     \]
 
 " css
