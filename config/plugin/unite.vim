@@ -1,4 +1,11 @@
 " SETTINGS
+" prompt
+let g:unite_prompt = '» '
+
+" filters
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
+call unite#filters#sorter_default#use(['sorter_rank'])
+
 " unite grep source
 if executable('ag')
   let g:unite_source_grep_command = 'ag'
@@ -18,7 +25,6 @@ endif
 let g:unite_enable_short_source_names = 1
 
 " fuzzy find settings
-call unite#filters#matcher_default#use(['matcher_fuzzy'])
 let g:unite_winheight = 10
 let g:unite_split_rule = 'botright'
 
