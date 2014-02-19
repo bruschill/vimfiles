@@ -40,6 +40,7 @@ set smartcase
 
 "line numbers
 set number
+set relativenumber
 set ruler
 set numberwidth=2
 
