@@ -2,6 +2,10 @@
 " prompt
 let g:unite_prompt = '» '
 
+" ignores
+call unite#custom#source('file_mru,file_rec,file_rec/async,ack',
+                       \ 'ignore_pattern', join(['\.git/', '\public/components/', 'tmp/', 'bundle/'], '\|'))
+
 " filters
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_rank'])
@@ -19,7 +23,7 @@ let g:unite_winheight = 10
 let g:unite_split_rule = 'botright'
 
 " MAPPINGS
-nnoremap <C-p> :Unite -start-insert file_rec/async:!<cr>
+nnoremap <C-p> :Unite -start-insert file_rec/async:<cr>
 nnoremap <leader>f :Unite grep:"." <cr>
 
 " Custom mappings for the unite buffer
