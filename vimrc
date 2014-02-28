@@ -6,7 +6,7 @@ filetype plugin indent on
 set background=dark
 colorscheme solarized
 
-set guifont=Consolas:h13
+set guifont=Source\ Code\ Pro:h12
 
 "general
 set encoding=utf-8
