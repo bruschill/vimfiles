@@ -2,10 +2,6 @@
 	path = bundle/vim-kwbd
 	url = git://github.com/naonya3/vim-kwbd.git
   ignore = dirty
-[submodule "bundle/ack"]
-	path = bundle/ack
-	url = git://github.com/mileszs/ack.vim.git
-  ignore = dirty
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
