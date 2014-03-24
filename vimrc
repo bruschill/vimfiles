@@ -62,6 +62,13 @@ set wildignore+=*.swp,*~,._*
 
 set dir=~/.vim/.temp
 
+set shortmess+=I
+
+try
+  set shortmess+=c
+catch /E539: Illegal character/
+endtry
+
 "setting tags directory
 set tags=~/.vim/tags
 
