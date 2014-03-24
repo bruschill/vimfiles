@@ -112,3 +112,9 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "bundle/vim-easytags"]
+	path = bundle/vim-easytags
+	url = https://github.com/xolox/vim-easytags
+[submodule "bundle/vim-easytags-misc"]
+	path = bundle/vim-easytags-misc
+	url = git@github.com:xolox/vim-misc.git
