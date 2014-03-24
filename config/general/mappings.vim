@@ -25,6 +25,3 @@ nmap <leader>hs :set hlsearch! hlsearch?<CR>
 
 " Adjust viewports to the same size
 map <Leader>= <C-w>=
-
-"hashrocket insert map
-imap <c-l> <space>=><space>
