@@ -64,6 +64,8 @@ set dir=~/.vim/.temp
 
 set shortmess+=I
 
+set completeopt-=preview
+
 try
   set shortmess+=c
 catch /E539: Illegal character/
