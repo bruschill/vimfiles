@@ -4,7 +4,7 @@ let g:unite_prompt = '» '
 
 " ignores
 call unite#custom#source('file_mru,file_rec,file_rec/async,ack',
-                       \ 'ignore_pattern', join(['\.git/', 'node_modules', 'public/components/', 'tmp/', 'bundle/', '\.png', '\.jpg', '\.jpeg', '\.svg'], '\|'))
+                       \ 'ignore_pattern', join(['\.git/', 'node_modules', 'public/components/', 'tmp/', 'bundle/', 'vendor/', '\.png', '\.jpg', '\.jpeg', '\.svg'], '\|'))
 
 " filters
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
