@@ -4,8 +4,7 @@ let g:easytags_languages = {
 \ 'language': {
 \    'cmd': g:easytags_cmd,
 \    'args':[],
-\    'fileoutput_opt': '--fields=+l',
-\    'recurse_flag': '-R'
+\    'fileoutput_opt': '--fields=+l'
 \  }
 \}
 
