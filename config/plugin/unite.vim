@@ -17,13 +17,14 @@ let g:unite_source_grep_recursive_opt = ''
 
 " fuzzy find settings
 let g:unite_enable_short_source_names = 1
+let g:unite_source_rec_max_cache_files = 5000
 
 " window settings
 let g:unite_winheight = 10
 let g:unite_split_rule = 'botright'
 
 " MAPPINGS
-nnoremap <C-p> :Unite -start-insert file_rec/async:<cr>
+nnoremap <C-p> :Unite -start-insert file_rec/async:!<cr>
 nnoremap <leader>f :Unite grep:"." <cr>
 
 autocmd FileType unite call s:unite_settings()
