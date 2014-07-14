@@ -46,10 +46,6 @@
 	path = bundle/ZoomWin
 	url = git://github.com/regedarek/ZoomWin.git
   ignore = dirty
-[submodule "bundle/vim-jade"]
-	path = bundle/vim-jade
-	url = git://github.com/digitaltoad/vim-jade.git
-  ignore = dirty
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
