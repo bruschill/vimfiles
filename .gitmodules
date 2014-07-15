@@ -62,10 +62,6 @@
 	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
   ignore = dirty
-[submodule "bundle/vim-jst"]
-	path = bundle/vim-jst
-	url = https://github.com/briancollins/vim-jst.git
-  ignore = dirty
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = https://github.com/Keithbsmiley/rspec.vim.git
