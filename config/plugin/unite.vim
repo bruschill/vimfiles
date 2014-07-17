@@ -1,10 +1,26 @@
 " SETTINGS
-" prompt
-let g:unite_prompt = '» '
+call unite#custom#profile('default', 'context', {
+      \ 'winheight': 10,
+      \ 'prompt': '» ',
+      \ 'prompt-direction': 'below',
+      \ 'direction': 'botright',
+      \ 'short-source-names': 1
+\})
 
 " ignores
-call unite#custom#source('file_mru,file_rec,file_rec/async,ack',
-                       \ 'ignore_pattern', join(['\.git/', 'node_modules', 'public/components/', 'tmp/', 'bundle/', 'vendor/', '\.png', '\.jpg', '\.jpeg', '\.svg'], '\|'))
+call unite#custom_source('file,file_rec,file_rec/async,grep',
+      \ 'ignore_pattern', join([
+      \ '\.git$',
+      \ '\.bundle/',
+      \ '\.rubygems/',
+      \ 'node_modules/',
+      \ 'tmp',
+      \ 'vendor/',
+      \ '\.png',
+      \ '\.jpg',
+      \ '\.jpeg',
+      \ '\.svg'
+      \ ], '\|'))
 
 " filters
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
@@ -16,12 +32,8 @@ let g:unite_source_grep_default_opts = '--line-numbers --nocolor --nogroup -S'
 let g:unite_source_grep_recursive_opt = ''
 
 " fuzzy find settings
-let g:unite_enable_short_source_names = 1
-let g:unite_source_rec_max_cache_files = 5000
-
-" window settings
-let g:unite_winheight = 10
-let g:unite_split_rule = 'botright'
+let g:unite_source_rec_async_command = 'ag --nocolor --nogroup -g ""'
+let g:unite_source_rec_max_cache_files = 200000
 
 " MAPPINGS
 nnoremap <C-p> :Unite -start-insert file_rec/async:!<cr>
