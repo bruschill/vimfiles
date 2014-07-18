@@ -4,16 +4,16 @@ let g:syntastic_quiet_messages={'level': 'warnings'}
 let g:syntastic_auto_loc_list=2
 
 " sh
-let g:syntastic_sh_checkers=['sh', 'shellcheck']
+let g:syntastic_sh_checkers=['shellcheck']
 
 " javascript
 let g:syntastic_javascript_checkers=['jshint']
 
 " json
-let g:syntastic_json_checkers=['jsonlint', 'jsonval']
+let g:syntastic_json_checkers=['jsonlint']
 
 " html
-let g:syntastic_html_checkers=['jshint', 'tidy']
+let g:syntastic_html_checkers=['jshint']
 let g:syntastic_html_tidy_ignore_errors = [
     \"trimming empty <i>",
     \"trimming empty <span>",
