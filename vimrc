@@ -1,10 +1,56 @@
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-syntax on
+if has('vim_starting')
+  set nocompatible
+
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
+call neobundle#begin(expand('~/.vim/bundle/'))
+
+"plugins
+" required
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" general
+NeoBundle 'Valloric/YouCompleteMe.git'
+NeoBundle 'Shougo/vimproc.vim.git'
+NeoBundle 'Shougo/unite.vim.git'
+NeoBundle 'xolox/vim-easytags'
+NeoBundle 'xolox/vim-misc'
+NeoBundle 'tpope/vim-endwise.git'
+NeoBundle 'tpope/vim-surround.git'
+NeoBundle 'tpope/vim-repeat.git'
+NeoBundle 'tpope/vim-eunuch.git'
+NeoBundle 'tpope/vim-rails.git'
+NeoBundle 'rking/ag.vim'
+NeoBundle 'marijnh/tern_for_vim.git'
+NeoBundle 'christoomey/vim-tmux-navigator.git'
+NeoBundle 'scrooloose/nerdcommenter.git'
+NeoBundle 'naonya3/vim-kwbd.git'
+NeoBundle 'regedarek/ZoomWin.git'
+
+" colors
+NeoBundle 'altercation/vim-colors-solarized.git'
+
+" syntax
+NeoBundle 'plasticboy/vim-markdown.git'
+NeoBundle 'vim-ruby/vim-ruby.git'
+NeoBundle 'hail2u/vim-css3-syntax.git'
+NeoBundle 'elzr/vim-json.git'
+NeoBundle 'Keithbsmiley/rspec.vim.git'
+NeoBundle 'pangloss/vim-javascript.git'
+NeoBundle 'othree/javascript-libraries-syntax.vim.git'
+NeoBundle 'othree/html5.vim.git'
+NeoBundle 'jelera/vim-javascript-syntax.git'
+
+call neobundle#end()
+
 filetype plugin indent on
 
+NeoBundleCheck
+
 set background=dark
-colorscheme solarized
+syntax on
+color solarized
 
 set guifont=Source\ Code\ Pro:h12
 
