@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "Updating..."
-git submodule --quiet foreach git pull -q origin master
-
-echo "Done!"
