@@ -1,5 +1,6 @@
 if has('vim_starting')
   set nocompatible
+  set nosmd
 
   set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
@@ -59,7 +60,6 @@ set guifont=Source\ Code\ Pro:h12
 set encoding=utf-8
 set autoread
 set vb t_vb=
-set nocompatible
 set hidden
 set nowrap
 set history=10000
