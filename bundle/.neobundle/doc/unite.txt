@@ -436,6 +436,13 @@ g:unite_no_default_keymappings		*g:unite_no_default_keymappings*
 
 		This variable doesn't exist unless you define it explicitly.
 
+g:unite_redraw_hold_candidates		*g:unite_redraw_hold_candidates*
+		If the number of unite candidates is not greater than this
+		variable, all the candidates are holded for redrawing.
+
+		If lua is enabled, the default value is 20000, otherwise
+		10000.
+
 SOURCES VARIABLES 				*unite-sources-variables*
 
 					*g:unite_source_buffer_time_format*
@@ -514,7 +521,7 @@ g:unite_source_rec_unit
 		Note: This option does not work in
 		|unite-source-file_rec/async| source.
 
-		The default value is 4000.
+		The default value is 1000(windows environment), 2000(other).
 
 					*g:unite_source_rec_async_command*
 g:unite_source_rec_async_command
@@ -3613,7 +3620,7 @@ Also, the default max candidates are limited. You can customize it by
 	\ 'max_candidates', 0)
 
 Also, you must clear previous cache in file_rec sources and wait until the cache
-is completed ("Directory traverse was completed" message is showed).
+is completed.
 In a directory including large file, making the cache is slow. Thus, I don't
 recommend it.
 To clear cache, you must execute |<Plug>(unite_redraw)| in unite
