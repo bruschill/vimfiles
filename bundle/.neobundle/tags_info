@@ -8,6 +8,7 @@ nerdcommenter
 rspec.vim
 tern_for_vim
 unite.vim
+vim-airline
 vim-colors-solarized
 vim-css3-syntax
 vim-easytags

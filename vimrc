@@ -27,6 +27,7 @@ NeoBundle 'christoomey/vim-tmux-navigator.git'
 NeoBundle 'scrooloose/nerdcommenter.git'
 NeoBundle 'naonya3/vim-kwbd.git'
 NeoBundle 'regedarek/ZoomWin.git'
+NeoBundle 'bling/vim-airline'
 
 " colors
 NeoBundle 'altercation/vim-colors-solarized.git'
