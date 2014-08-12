@@ -70,6 +70,9 @@ set timeout
 set timeoutlen=250
 set ttimeoutlen=100
 
+"statusline
+set laststatus=2
+
 "tab settings
 set expandtab
 set smarttab
