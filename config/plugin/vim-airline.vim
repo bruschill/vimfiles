@@ -1,3 +1,6 @@
+"turn off whitespace detection
+let g:airline#extensions#whitespace#enabled=0
+
 "enable modified detection
 let g:airline_detect_modified=1
 
