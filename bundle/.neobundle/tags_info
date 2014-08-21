@@ -7,6 +7,7 @@ neobundle.vim
 rspec.vim
 tcomment_vim
 tern_for_vim
+tmuxline.vim
 unite.vim
 vim-airline
 vim-colors-solarized

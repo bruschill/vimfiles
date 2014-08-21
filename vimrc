@@ -27,21 +27,22 @@ NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'naonya3/vim-kwbd.git'
 NeoBundle 'regedarek/ZoomWin.git'
 NeoBundle 'bling/vim-airline'
+NeoBundle 'edkolev/tmuxline.vim'
 
 " colors
 NeoBundle 'altercation/vim-colors-solarized.git'
 
-" lazy loading
+" syntax
 "   ruby
 NeoBundleLazy 'vim-ruby/vim-ruby.git', {'autoload': {'filetypes': ['ruby']}}
 NeoBundleLazy 'tpope/vim-rails.git', {'autoload': {'filetypes': ['ruby']}}
 NeoBundleLazy 'Keithbsmiley/rspec.vim.git', {'autoload': {'filetypes': ['ruby']}}
 
 "   javascript
+NeoBundleLazy 'pangloss/vim-javascript.git'
+NeoBundleLazy 'jelera/vim-javascript-syntax.git'
 NeoBundleLazy 'elzr/vim-json.git', {'autoload': {'filetypes': ['javascript']}}
-NeoBundleLazy 'pangloss/vim-javascript.git', {'autoload': {'filetypes': ['javascript']}}
 NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload': {'filetypes': ['javascript']}}
-NeoBundleLazy 'jelera/vim-javascript-syntax.git', {'autoload': {'filetypes': ['javascript']}}
 NeoBundleLazy 'marijnh/tern_for_vim.git', {'autoload': {'filetypes': ['javascript']}, 'build_commands': 'npm install'}
 
 "   markup
@@ -62,7 +63,7 @@ set background=dark
 syntax on
 color solarized
 
-set guifont=Source\ Code\ Pro:h12
+set guifont=Source\ Code\ Pro\ for\ Powerline:h12
 
 "general
 set encoding=utf-8

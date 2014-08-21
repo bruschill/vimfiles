@@ -54,6 +54,8 @@
 :TCommentInline	tcomment.txt	/*:TCommentInline*
 :TCommentMaybeInline	tcomment.txt	/*:TCommentMaybeInline*
 :TCommentRight	tcomment.txt	/*:TCommentRight*
+:Tmuxline	tmuxline.txt	/*:Tmuxline*
+:TmuxlineSnapshot	tmuxline.txt	/*:TmuxlineSnapshot*
 :Unite	unite.txt	/*:Unite*
 :UniteBookmarkAdd	unite.txt	/*:UniteBookmarkAdd*
 :UniteClose	unite.txt	/*:UniteClose*
@@ -820,6 +822,12 @@ tern.txt	tern.txt	/*tern.txt*
 tern_show_argument_hints	tern.txt	/*tern_show_argument_hints*
 tern_show_signature_in_pum	tern.txt	/*tern_show_signature_in_pum*
 tests-for-miscellaneous-vim-scripts	misc.txt	/*tests-for-miscellaneous-vim-scripts*
+tmuxline	tmuxline.txt	/*tmuxline*
+tmuxline-api	tmuxline.txt	/*tmuxline-api*
+tmuxline-commands	tmuxline.txt	/*tmuxline-commands*
+tmuxline-configuration	tmuxline.txt	/*tmuxline-configuration*
+tmuxline-license	tmuxline.txt	/*tmuxline-license*
+tmuxline.txt	tmuxline.txt	/*tmuxline.txt*
 toggle-background	solarized.txt	/*toggle-background*
 toggle-bg	solarized.txt	/*toggle-bg*
 togglebg	solarized.txt	/*togglebg*
