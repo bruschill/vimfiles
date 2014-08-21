@@ -14,6 +14,7 @@ vim-css3-syntax
 vim-easytags
 vim-endwise
 vim-eunuch
+vim-git
 vim-javascript
 vim-javascript-syntax
 vim-json

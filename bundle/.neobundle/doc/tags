@@ -241,6 +241,7 @@ eunuch-:Wall	eunuch.txt	/*eunuch-:Wall*
 eunuch-about	eunuch.txt	/*eunuch-about*
 eunuch-commands	eunuch.txt	/*eunuch-commands*
 eunuch.txt	eunuch.txt	/*eunuch.txt*
+ft-gitcommit-plugin	ft-gitcommit-plugin.txt	/*ft-gitcommit-plugin*
 ft-ruby-omni	ft-ruby-omni.txt	/*ft-ruby-omni*
 ft-ruby-syntax	ft-ruby-syntax.txt	/*ft-ruby-syntax*
 g:ZoomWin_funcref	ZoomWin.txt	/*g:ZoomWin_funcref*
