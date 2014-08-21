@@ -12,8 +12,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
-NeoBundle 'Valloric/YouCompleteMe.git'
-NeoBundle 'Shougo/vimproc.vim.git'
+NeoBundle 'Valloric/YouCompleteMe.git', {'build_commands': './install'}
+NeoBundle 'Shougo/vimproc.vim.git', {'build_commands': 'make clean && make'}
 NeoBundle 'Shougo/unite.vim.git'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'xolox/vim-misc'
@@ -21,10 +21,7 @@ NeoBundle 'tpope/vim-endwise.git'
 NeoBundle 'tpope/vim-surround.git'
 NeoBundle 'tpope/vim-repeat.git'
 NeoBundle 'tpope/vim-eunuch.git'
-NeoBundle 'tpope/vim-rails.git'
-NeoBundle 'tpope/vim-git'
 NeoBundle 'rking/ag.vim'
-NeoBundle 'marijnh/tern_for_vim.git'
 NeoBundle 'christoomey/vim-tmux-navigator.git'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'naonya3/vim-kwbd.git'
@@ -34,16 +31,26 @@ NeoBundle 'bling/vim-airline'
 " colors
 NeoBundle 'altercation/vim-colors-solarized.git'
 
-" syntax
-NeoBundle 'plasticboy/vim-markdown.git'
-NeoBundle 'vim-ruby/vim-ruby.git'
-NeoBundle 'hail2u/vim-css3-syntax.git'
-NeoBundle 'elzr/vim-json.git'
-NeoBundle 'Keithbsmiley/rspec.vim.git'
-NeoBundle 'pangloss/vim-javascript.git'
-NeoBundle 'othree/javascript-libraries-syntax.vim.git'
-NeoBundle 'othree/html5.vim.git'
-NeoBundle 'jelera/vim-javascript-syntax.git'
+" lazy loading
+"   ruby
+NeoBundleLazy 'vim-ruby/vim-ruby.git', {'autoload': {'filetypes': ['ruby']}}
+NeoBundleLazy 'tpope/vim-rails.git', {'autoload': {'filetypes': ['ruby']}}
+NeoBundleLazy 'Keithbsmiley/rspec.vim.git', {'autoload': {'filetypes': ['ruby']}}
+
+"   javascript
+NeoBundleLazy 'elzr/vim-json.git', {'autoload': {'filetypes': ['javascript']}}
+NeoBundleLazy 'pangloss/vim-javascript.git', {'autoload': {'filetypes': ['javascript']}}
+NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload': {'filetypes': ['javascript']}}
+NeoBundleLazy 'jelera/vim-javascript-syntax.git', {'autoload': {'filetypes': ['javascript']}}
+NeoBundleLazy 'marijnh/tern_for_vim.git', {'autoload': {'filetypes': ['javascript']}, 'build_commands': 'npm install'}
+
+"   markup
+NeoBundleLazy 'othree/html5.vim.git', {'autoload': {'filetypes': ['html']}}
+NeoBundleLazy 'hail2u/vim-css3-syntax.git', {'autoload': {'filetypes': ['css']}}
+NeoBundleLazy 'plasticboy/vim-markdown.git', {'autoload': {'filetypes': ['markdown']}}
+
+"   other
+NeoBundleLazy 'tpope/vim-git', {'autoload': {'filetypes': ['gitcommit']}}
 
 call neobundle#end()
 
