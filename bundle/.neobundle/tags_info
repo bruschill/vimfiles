@@ -5,6 +5,7 @@ html5.vim
 javascript-libraries-syntax.vim
 neobundle.vim
 rspec.vim
+tcomment_vim
 tern_for_vim
 unite.vim
 vim-airline
