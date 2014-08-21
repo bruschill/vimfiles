@@ -4,7 +4,6 @@ ag.vim
 html5.vim
 javascript-libraries-syntax.vim
 neobundle.vim
-nerdcommenter
 rspec.vim
 tern_for_vim
 unite.vim
