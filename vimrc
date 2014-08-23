@@ -12,8 +12,18 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
-NeoBundle 'Valloric/YouCompleteMe.git', {'build_commands': './install'}
-NeoBundle 'Shougo/vimproc.vim.git', {'build_commands': 'make clean && make'}
+NeoBundle 'Valloric/YouCompleteMe.git', {
+  \'build': {
+    \'mac': 'sh -c "git submodule update --recursive --force && ./install"'
+  \}
+\}
+
+NeoBundle 'Shougo/vimproc.vim.git', {
+  \'build': {
+    \'mac': 'sh -c "make clean && make"'
+  \}
+\}
+
 NeoBundle 'Shougo/unite.vim.git'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'xolox/vim-misc'
@@ -43,7 +53,12 @@ NeoBundleLazy 'pangloss/vim-javascript.git'
 NeoBundleLazy 'jelera/vim-javascript-syntax.git'
 NeoBundleLazy 'elzr/vim-json.git', {'autoload': {'filetypes': ['javascript']}}
 NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload': {'filetypes': ['javascript']}}
-NeoBundleLazy 'marijnh/tern_for_vim.git', {'autoload': {'filetypes': ['javascript']}, 'build_commands': 'npm install'}
+NeoBundleLazy 'marijnh/tern_for_vim.git', {
+  \'autoload': {
+    \'filetypes': ['javascript']
+  \},
+  \'build': 'sh -c "npm install"'
+\}
 
 "   markup
 NeoBundleLazy 'othree/html5.vim.git', {'autoload': {'filetypes': ['html']}}
