@@ -44,29 +44,26 @@ NeoBundle 'altercation/vim-colors-solarized.git'
 
 " syntax
 "   ruby
-NeoBundleLazy 'vim-ruby/vim-ruby.git', {'autoload': {'filetypes': ['ruby']}}
-NeoBundleLazy 'tpope/vim-rails.git', {'autoload': {'filetypes': ['ruby']}}
-NeoBundleLazy 'Keithbsmiley/rspec.vim.git', {'autoload': {'filetypes': ['ruby']}}
+NeoBundle 'vim-ruby/vim-ruby.git'
+NeoBundle 'tpope/vim-rails.git'
+NeoBundle 'Keithbsmiley/rspec.vim.git'
 
 "   javascript
-NeoBundleLazy 'pangloss/vim-javascript.git'
-NeoBundleLazy 'jelera/vim-javascript-syntax.git'
-NeoBundleLazy 'elzr/vim-json.git', {'autoload': {'filetypes': ['javascript']}}
-NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload': {'filetypes': ['javascript']}}
-NeoBundleLazy 'marijnh/tern_for_vim.git', {
-  \'autoload': {
-    \'filetypes': ['javascript']
-  \},
+NeoBundle 'pangloss/vim-javascript.git'
+NeoBundle 'jelera/vim-javascript-syntax.git'
+NeoBundle 'elzr/vim-json.git'
+NeoBundle 'othree/javascript-libraries-syntax.vim.git'
+NeoBundle 'marijnh/tern_for_vim.git', {
   \'build': 'sh -c "npm install"'
 \}
 
 "   markup
-NeoBundleLazy 'othree/html5.vim.git', {'autoload': {'filetypes': ['html']}}
-NeoBundleLazy 'hail2u/vim-css3-syntax.git', {'autoload': {'filetypes': ['css']}}
-NeoBundleLazy 'plasticboy/vim-markdown.git', {'autoload': {'filetypes': ['markdown']}}
+NeoBundle 'othree/html5.vim.git'
+NeoBundle 'hail2u/vim-css3-syntax.git'
+NeoBundle 'plasticboy/vim-markdown.git'
 
 "   other
-NeoBundleLazy 'tpope/vim-git', {'autoload': {'filetypes': ['gitcommit']}}
+NeoBundle 'tpope/vim-git'
 
 call neobundle#end()
 
