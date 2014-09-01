@@ -1616,10 +1616,6 @@ unite#custom#source({source-name}, {option-name}, {value})
 		Regardless of |g:unite_enable_ignore_case| value, it's case
 		sensitive.
 
-		variables			(Dictionary)
-		Changes the source custom variables.  The variables depend
-		on the sources.
-
 						*unite#take_action()*
 unite#take_action({action-name}, {candidate})
 		Runs an action {action-name} against {candidate}.  This will
@@ -1696,6 +1692,11 @@ the context dictionary.
 		Disable {option-name} flag.
 		Note: If you use both {option-name} and -no-{option-name} in
 		same unite buffer, it is undefined.
+
+						*unite-source-custom-options*
+		-custom-{option-name}={value}
+		Source custom options.
+		For example: "-custom-grep-search-word-highlight=Error"
 
 						*unite-options-no-quit*
 		-no-quit
@@ -2173,11 +2174,11 @@ grep		Nominates "grep" command output as candidates.
 		#         : Alternate buffer name
 		$buffers  : All buffer names
 
-		Source variables:
-		command                : grep command name
-		default_opts           : default grep options
-		recursive_opt          : grep recursive options
-		search_word_highlight  : search word highlight
+		Source custom options:
+		-custom-grep-command                : grep command name
+		-custom-grep-default_opts           : default grep options
+		-custom-grep-recursive_opt          : grep recursive options
+		-custom-grep-search-word-highlight  : search word highlight
 
 		Example:
 >
@@ -3196,6 +3197,12 @@ NOTATION					*unite-notation*
 				Note: Recommend sources save variables instead
 				of s: variables.
 
+			custom__{name}		(String)	(Optional)
+				The source custom options.
+				Note: You can get "-custom-grep-command"
+				source custom option value by below script. >
+				get(a:context, "custom_grep_command", "")
+<
 {candidate}					*unite-notation-{candidate}*
 			A dictionary for candidates.
 			The followings are the primary information.

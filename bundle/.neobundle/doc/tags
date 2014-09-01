@@ -1067,6 +1067,7 @@ unite-source-buffer	unite.txt	/*unite-source-buffer*
 unite-source-buffer_tab	unite.txt	/*unite-source-buffer_tab*
 unite-source-change	unite.txt	/*unite-source-change*
 unite-source-command	unite.txt	/*unite-source-command*
+unite-source-custom-options	unite.txt	/*unite-source-custom-options*
 unite-source-directory	unite.txt	/*unite-source-directory*
 unite-source-directory/new	unite.txt	/*unite-source-directory\/new*
 unite-source-file	unite.txt	/*unite-source-file*

@@ -12,11 +12,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
-NeoBundle 'Valloric/YouCompleteMe.git', {
-  \'build': {
-    \'mac': 'sh -c "git submodule update --recursive --force && ./install"'
-  \}
-\}
+NeoBundle 'Valloric/YouCompleteMe.git'
 
 NeoBundle 'Shougo/vimproc.vim.git', {
   \'build': {
