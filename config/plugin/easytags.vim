@@ -10,7 +10,8 @@ let g:easytags_languages = {
 \    'cmd': '/usr/local/bin/jsctags',
 \    'args': [],
 \    'fileoutput_opt': '-f',
-\    'stdout_opt': '-f -'
+\    'stdout_opt': '-f-',
+\    'recurse_flag': '-R'
 \ }
 \}
 

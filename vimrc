@@ -12,7 +12,11 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
-NeoBundle 'Valloric/YouCompleteMe.git'
+NeoBundle 'Valloric/YouCompleteMe.git', {
+  \'build': {
+    \'mac': 'sh -c "git submodule update --recursive --force && ./install.sh"'
+  \}
+\}
 
 NeoBundle 'Shougo/vimproc.vim.git', {
   \'build': {
@@ -45,10 +49,14 @@ NeoBundle 'tpope/vim-rails.git'
 NeoBundle 'Keithbsmiley/rspec.vim.git'
 
 "   javascript
-NeoBundle 'pangloss/vim-javascript.git'
-NeoBundle 'jelera/vim-javascript-syntax.git'
-NeoBundle 'elzr/vim-json.git'
+NeoBundleLazy 'pangloss/vim-javascript.git', {
+  \'autoload': {
+    \'filetypes': ['javascript']
+  \}
+\}
+
 NeoBundle 'othree/javascript-libraries-syntax.vim.git'
+NeoBundle 'elzr/vim-json.git'
 NeoBundle 'marijnh/tern_for_vim.git', {
   \'build': 'sh -c "npm install"'
 \}

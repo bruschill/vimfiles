@@ -285,6 +285,7 @@ g:neobundle#types#git#clone_depth	neobundle.txt	/*g:neobundle#types#git#clone_de
 g:neobundle#types#git#command_path	neobundle.txt	/*g:neobundle#types#git#command_path*
 g:neobundle#types#git#default_protocol	neobundle.txt	/*g:neobundle#types#git#default_protocol*
 g:neobundle#types#git#enable_submodule	neobundle.txt	/*g:neobundle#types#git#enable_submodule*
+g:neobundle#types#git#pull_command	neobundle.txt	/*g:neobundle#types#git#pull_command*
 g:neobundle#types#hg#command_path	neobundle.txt	/*g:neobundle#types#hg#command_path*
 g:neobundle#types#hg#default_protocol	neobundle.txt	/*g:neobundle#types#hg#default_protocol*
 g:neobundle#types#raw#calc_hash_command	neobundle.txt	/*g:neobundle#types#raw#calc_hash_command*
@@ -368,19 +369,15 @@ g:unite_source_alias_aliases	unite.txt	/*g:unite_source_alias_aliases*
 g:unite_source_bookmark_directory	unite.txt	/*g:unite_source_bookmark_directory*
 g:unite_source_buffer_time_format	unite.txt	/*g:unite_source_buffer_time_format*
 g:unite_source_file_async_command	unite.txt	/*g:unite_source_file_async_command*
-g:unite_source_file_ignore_pattern	unite.txt	/*g:unite_source_file_ignore_pattern*
 g:unite_source_file_rec_async_command	unite.txt	/*g:unite_source_file_rec_async_command*
-g:unite_source_file_rec_ignore_pattern	unite.txt	/*g:unite_source_file_rec_ignore_pattern*
 g:unite_source_file_rec_max_cache_files	unite.txt	/*g:unite_source_file_rec_max_cache_files*
 g:unite_source_file_rec_min_cache_files	unite.txt	/*g:unite_source_file_rec_min_cache_files*
 g:unite_source_find_command	unite.txt	/*g:unite_source_find_command*
 g:unite_source_find_default_opts	unite.txt	/*g:unite_source_find_default_opts*
-g:unite_source_find_ignore_pattern	unite.txt	/*g:unite_source_find_ignore_pattern*
 g:unite_source_find_max_candidates	unite.txt	/*g:unite_source_find_max_candidates*
 g:unite_source_grep_command	unite.txt	/*g:unite_source_grep_command*
 g:unite_source_grep_default_opts	unite.txt	/*g:unite_source_grep_default_opts*
 g:unite_source_grep_encoding	unite.txt	/*g:unite_source_grep_encoding*
-g:unite_source_grep_ignore_pattern	unite.txt	/*g:unite_source_grep_ignore_pattern*
 g:unite_source_grep_max_candidates	unite.txt	/*g:unite_source_grep_max_candidates*
 g:unite_source_grep_recursive_opt	unite.txt	/*g:unite_source_grep_recursive_opt*
 g:unite_source_grep_search_word_highlight	unite.txt	/*g:unite_source_grep_search_word_highlight*
@@ -395,11 +392,9 @@ g:unite_source_neobundle_install_max_processes	neobundle.txt	/*g:unite_source_ne
 g:unite_source_process_enable_confirm	unite.txt	/*g:unite_source_process_enable_confirm*
 g:unite_source_rec_async_command	unite.txt	/*g:unite_source_rec_async_command*
 g:unite_source_rec_git_command	unite.txt	/*g:unite_source_rec_git_command*
-g:unite_source_rec_ignore_pattern	unite.txt	/*g:unite_source_rec_ignore_pattern*
 g:unite_source_rec_max_cache_files	unite.txt	/*g:unite_source_rec_max_cache_files*
 g:unite_source_rec_min_cache_files	unite.txt	/*g:unite_source_rec_min_cache_files*
 g:unite_source_rec_unit	unite.txt	/*g:unite_source_rec_unit*
-g:unite_source_vimgrep_ignore_pattern	unite.txt	/*g:unite_source_vimgrep_ignore_pattern*
 g:unite_source_vimgrep_search_word_highlight	unite.txt	/*g:unite_source_vimgrep_search_word_highlight*
 g:unite_split_rule	unite.txt	/*g:unite_split_rule*
 g:unite_update_time	unite.txt	/*g:unite_update_time*
@@ -920,7 +915,6 @@ unite-filter-converter_relative_word	unite.txt	/*unite-filter-converter_relative
 unite-filter-converter_smart_path	unite.txt	/*unite-filter-converter_smart_path*
 unite-filter-converter_tail	unite.txt	/*unite-filter-converter_tail*
 unite-filter-converter_tail_abbr	unite.txt	/*unite-filter-converter_tail_abbr*
-unite-filter-default	unite.txt	/*unite-filter-default*
 unite-filter-matcher_context	unite.txt	/*unite-filter-matcher_context*
 unite-filter-matcher_default	unite.txt	/*unite-filter-matcher_default*
 unite-filter-matcher_fuzzy	unite.txt	/*unite-filter-matcher_fuzzy*
@@ -928,6 +922,7 @@ unite-filter-matcher_glob	unite.txt	/*unite-filter-matcher_glob*
 unite-filter-matcher_hide_hidden_files	unite.txt	/*unite-filter-matcher_hide_hidden_files*
 unite-filter-matcher_migemo	unite.txt	/*unite-filter-matcher_migemo*
 unite-filter-matcher_project_files	unite.txt	/*unite-filter-matcher_project_files*
+unite-filter-matcher_project_ignore_files	unite.txt	/*unite-filter-matcher_project_ignore_files*
 unite-filter-matcher_regexp	unite.txt	/*unite-filter-matcher_regexp*
 unite-filter-sorter_default	unite.txt	/*unite-filter-sorter_default*
 unite-filter-sorter_ftime	unite.txt	/*unite-filter-sorter_ftime*
@@ -1042,7 +1037,6 @@ unite-source-attribute-converters	unite.txt	/*unite-source-attribute-converters*
 unite-source-attribute-default_action	unite.txt	/*unite-source-attribute-default_action*
 unite-source-attribute-default_kind	unite.txt	/*unite-source-attribute-default_kind*
 unite-source-attribute-description	unite.txt	/*unite-source-attribute-description*
-unite-source-attribute-filters	unite.txt	/*unite-source-attribute-filters*
 unite-source-attribute-gather_candidates	unite.txt	/*unite-source-attribute-gather_candidates*
 unite-source-attribute-hooks	unite.txt	/*unite-source-attribute-hooks*
 unite-source-attribute-hooks-on_close	unite.txt	/*unite-source-attribute-hooks-on_close*
