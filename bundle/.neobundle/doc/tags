@@ -59,6 +59,10 @@
 :Unite	unite.txt	/*:Unite*
 :UniteBookmarkAdd	unite.txt	/*:UniteBookmarkAdd*
 :UniteClose	unite.txt	/*:UniteClose*
+:UniteFirst	unite.txt	/*:UniteFirst*
+:UniteLast	unite.txt	/*:UniteLast*
+:UniteNext	unite.txt	/*:UniteNext*
+:UnitePrevious	unite.txt	/*:UnitePrevious*
 :UniteResume	unite.txt	/*:UniteResume*
 :UniteWithBufferDir	unite.txt	/*:UniteWithBufferDir*
 :UniteWithCurrentDir	unite.txt	/*:UniteWithCurrentDir*
@@ -369,9 +373,6 @@ g:unite_source_alias_aliases	unite.txt	/*g:unite_source_alias_aliases*
 g:unite_source_bookmark_directory	unite.txt	/*g:unite_source_bookmark_directory*
 g:unite_source_buffer_time_format	unite.txt	/*g:unite_source_buffer_time_format*
 g:unite_source_file_async_command	unite.txt	/*g:unite_source_file_async_command*
-g:unite_source_file_rec_async_command	unite.txt	/*g:unite_source_file_rec_async_command*
-g:unite_source_file_rec_max_cache_files	unite.txt	/*g:unite_source_file_rec_max_cache_files*
-g:unite_source_file_rec_min_cache_files	unite.txt	/*g:unite_source_file_rec_min_cache_files*
 g:unite_source_find_command	unite.txt	/*g:unite_source_find_command*
 g:unite_source_find_default_opts	unite.txt	/*g:unite_source_find_default_opts*
 g:unite_source_find_max_candidates	unite.txt	/*g:unite_source_find_max_candidates*
@@ -985,6 +986,7 @@ unite-options-cursor-line-highlight	unite.txt	/*unite-options-cursor-line-highli
 unite-options-cursor-line-time	unite.txt	/*unite-options-cursor-line-time*
 unite-options-default-action	unite.txt	/*unite-options-default-action*
 unite-options-direction	unite.txt	/*unite-options-direction*
+unite-options-force-immediately	unite.txt	/*unite-options-force-immediately*
 unite-options-here	unite.txt	/*unite-options-here*
 unite-options-hide-source-names	unite.txt	/*unite-options-hide-source-names*
 unite-options-hide-status-line	unite.txt	/*unite-options-hide-status-line*

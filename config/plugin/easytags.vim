@@ -5,13 +5,6 @@ let g:easytags_languages = {
 \    'cmd': g:easytags_cmd,
 \    'args':[],
 \    'fileoutput_opt': '--fields=+l'
-\  },
-\ 'javascript': {
-\    'cmd': '/usr/local/bin/jsctags',
-\    'args': [],
-\    'fileoutput_opt': '-f',
-\    'stdout_opt': '-f-',
-\    'recurse_flag': '-R'
 \ }
 \}
 
