@@ -204,6 +204,7 @@ airline-tmuxline	airline.txt	/*airline-tmuxline*
 airline-troubleshooting	airline.txt	/*airline-troubleshooting*
 airline-virtualenv	airline.txt	/*airline-virtualenv*
 airline-whitespace	airline.txt	/*airline-whitespace*
+airline-windowswap	airline.txt	/*airline-windowswap*
 airline-writing-extensions	airline.txt	/*airline-writing-extensions*
 airline.txt	airline.txt	/*airline.txt*
 b:tcomment_def_{NAME}	tcomment.txt	/*b:tcomment_def_{NAME}*
@@ -276,6 +277,7 @@ g:easytags_python_enabled	easytags.txt	/*g:easytags_python_enabled*
 g:easytags_python_script	easytags.txt	/*g:easytags_python_script*
 g:easytags_resolve_links	easytags.txt	/*g:easytags_resolve_links*
 g:easytags_suppress_ctags_warning	easytags.txt	/*g:easytags_suppress_ctags_warning*
+g:easytags_suppress_report	easytags.txt	/*g:easytags_suppress_report*
 g:easytags_syntax_keyword	easytags.txt	/*g:easytags_syntax_keyword*
 g:easytags_updatetime_min	easytags.txt	/*g:easytags_updatetime_min*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
@@ -991,6 +993,7 @@ unite-options-here	unite.txt	/*unite-options-here*
 unite-options-hide-source-names	unite.txt	/*unite-options-hide-source-names*
 unite-options-hide-status-line	unite.txt	/*unite-options-hide-status-line*
 unite-options-horizontal	unite.txt	/*unite-options-horizontal*
+unite-options-ignorecase	unite.txt	/*unite-options-ignorecase*
 unite-options-immediately	unite.txt	/*unite-options-immediately*
 unite-options-input	unite.txt	/*unite-options-input*
 unite-options-keep-focus	unite.txt	/*unite-options-keep-focus*
@@ -1011,10 +1014,12 @@ unite-options-prompt	unite.txt	/*unite-options-prompt*
 unite-options-prompt-direction	unite.txt	/*unite-options-prompt-direction*
 unite-options-prompt-visible	unite.txt	/*unite-options-prompt-visible*
 unite-options-quick-match	unite.txt	/*unite-options-quick-match*
+unite-options-restore	unite.txt	/*unite-options-restore*
 unite-options-resume	unite.txt	/*unite-options-resume*
 unite-options-select	unite.txt	/*unite-options-select*
 unite-options-short-source-names	unite.txt	/*unite-options-short-source-names*
 unite-options-silent	unite.txt	/*unite-options-silent*
+unite-options-smartcase	unite.txt	/*unite-options-smartcase*
 unite-options-start-insert	unite.txt	/*unite-options-start-insert*
 unite-options-sync	unite.txt	/*unite-options-sync*
 unite-options-tab	unite.txt	/*unite-options-tab*
@@ -1218,6 +1223,7 @@ xolox#misc#str#indent()	misc.txt	/*xolox#misc#str#indent()*
 xolox#misc#str#slug()	misc.txt	/*xolox#misc#str#slug()*
 xolox#misc#str#trim()	misc.txt	/*xolox#misc#str#trim()*
 xolox#misc#str#ucfirst()	misc.txt	/*xolox#misc#str#ucfirst()*
+xolox#misc#str#unescape()	misc.txt	/*xolox#misc#str#unescape()*
 xolox#misc#test#assert_equals()	misc.txt	/*xolox#misc#test#assert_equals()*
 xolox#misc#test#assert_same_type()	misc.txt	/*xolox#misc#test#assert_same_type()*
 xolox#misc#test#assert_true()	misc.txt	/*xolox#misc#test#assert_true()*
