@@ -49,11 +49,7 @@ NeoBundle 'tpope/vim-rails.git'
 NeoBundle 'Keithbsmiley/rspec.vim.git'
 
 "   javascript
-NeoBundleLazy 'pangloss/vim-javascript.git', {
-  \'autoload': {
-    \'filetypes': ['javascript']
-  \}
-\}
+NeoBundle 'pangloss/vim-javascript.git'
 
 NeoBundle 'othree/javascript-libraries-syntax.vim.git'
 NeoBundle 'elzr/vim-json.git'
