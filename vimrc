@@ -13,12 +13,14 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
 NeoBundle 'Valloric/YouCompleteMe.git', {
+  \'build_commands': 'git',
   \'build': {
-    \'mac': 'sh -c "git submodule update --recursive --force && ./install.sh"'
+    \'mac': 'sh -c "git submodule update --init --recursive && ./install.sh"'
   \}
 \}
 
 NeoBundle 'Shougo/vimproc.vim.git', {
+  \'build_commands': 'make',
   \'build': {
     \'mac': 'sh -c "make clean && make"'
   \}
@@ -54,7 +56,10 @@ NeoBundle 'pangloss/vim-javascript.git'
 NeoBundle 'othree/javascript-libraries-syntax.vim.git'
 NeoBundle 'elzr/vim-json.git'
 NeoBundle 'marijnh/tern_for_vim.git', {
-  \'build': 'sh -c "npm install"'
+  \'build_commands': 'npm',
+  \'build': {
+    \'mac': 'sh -c "npm install"'
+  \}
 \}
 
 "   markup
