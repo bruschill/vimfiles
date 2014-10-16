@@ -19,6 +19,8 @@ NeoBundle 'Valloric/YouCompleteMe.git', {
   \}
 \}
 
+NeoBundle 'scrooloose/syntastic'
+
 NeoBundle 'Shougo/vimproc.vim.git', {
   \'build_commands': 'make',
   \'build': {
