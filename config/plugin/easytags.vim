@@ -5,7 +5,6 @@ let g:easytags_languages = {
 \    'cmd': g:easytags_cmd,
 \    'args':[],
 \    'stdout_opt': '-f-',
-\    'recurse_flag': '-R',
 \    'fileoutput_opt': '--fields=+l'
 \ }
 \}
