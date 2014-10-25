@@ -32,8 +32,7 @@ let g:unite_source_grep_default_opts = '--line-numbers --nocolor --nogroup -S'
 let g:unite_source_grep_recursive_opt = ''
 
 " fuzzy find settings
-let g:unite_source_rec_async_command = 'ag --nocolor --nogroup -g ""'
-let g:unite_source_rec_max_cache_files = 20000
+let g:unite_source_rec_async_command = 'ag --follow --nocolor --nogroup --hidden -g ""'
 
 " MAPPINGS
 nnoremap <C-p> :Unite -start-insert file_rec/async<cr>
