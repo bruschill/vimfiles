@@ -2,14 +2,15 @@
 let mapleader=","
 
 "vimrc edit/reload mappings
-nmap  <silent> <Leader>ve  :e ~/.vimrc<CR>
-nmap  <silent> <Leader>vr  :so ~/.vimrc<CR>
+nmap <silent> <Leader>ve :e ~/.vimrc<CR>
+nmap <silent> <Leader>vr :so ~/.vimrc<CR>
+
+"tab settings
+nmap <Leader>tn :tabnew<CR>
+nmap <Leader>tc :tabclose<CR>
 
 "mapping enter to clear search when pressed
 nnoremap <cr> :noh<cr>
-
-" format the entire file
-nmap <leader>fef ggVG=
 
 " Some helpers to edit mode
 nmap <leader>ew :e <C-R>=expand('%:h').'/'<cr>

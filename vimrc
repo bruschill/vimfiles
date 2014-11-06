@@ -38,7 +38,6 @@ NeoBundle 'tpope/vim-eunuch.git'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'christoomey/vim-tmux-navigator.git'
 NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'naonya3/vim-kwbd.git'
 NeoBundle 'regedarek/ZoomWin.git'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'edkolev/tmuxline.vim'
@@ -51,6 +50,7 @@ NeoBundle 'altercation/vim-colors-solarized.git'
 NeoBundle 'vim-ruby/vim-ruby.git'
 NeoBundle 'tpope/vim-rails.git'
 NeoBundle 'Keithbsmiley/rspec.vim.git'
+NeoBundle 'sunaku/vim-ruby-minitest'
 
 "   javascript
 NeoBundle 'pangloss/vim-javascript.git'
@@ -78,6 +78,7 @@ filetype plugin indent on
 
 NeoBundleCheck
 
+set t_Co=256
 set background=dark
 syntax on
 color solarized

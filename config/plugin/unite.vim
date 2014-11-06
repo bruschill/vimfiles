@@ -1,4 +1,7 @@
 " SETTINGS
+" general
+let g:unite_data_directory = '~/.vim/.unite_cache'
+
 call unite#custom#profile('default', 'context', {
       \ 'winheight': 10,
       \ 'prompt': '» ',
@@ -8,40 +11,48 @@ call unite#custom#profile('default', 'context', {
 \})
 
 " ignores
-call unite#custom_source('file,file_rec,file_rec/async,grep',
+call unite#custom#source('file,file_rec,file_rec/async,grep',
       \ 'ignore_pattern', join([
-      \ '\.git$',
-      \ '\.bundle/',
-      \ '\.rubygems/',
-      \ 'node_modules/',
+      \ '\.bundle',
+      \ '\.rubygems',
       \ 'tmp',
-      \ 'vendor/',
+      \ 'temp',
+      \ 'log',
+      \ 'bundle',
+      \ 'vendor',
+      \ 'node_modules',
       \ '\.png',
       \ '\.jpg',
       \ '\.jpeg',
-      \ '\.svg'
+      \ '\.svg',
+      \ '\.psd',
+      \ '\.gif',
+      \ '\.ico',
+      \ '\.woff',
+      \ '\.eot',
+      \ '\.ttf'
       \ ], '\|'))
 
 " filters
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_rank'])
 
+" fuzzy find settings
+let g:unite_source_rec_async_command = 'ag -tfS --nocolor --nogroup --line-numbers -g ""'
+
 " grep source
 let g:unite_source_grep_command = 'ag'
-let g:unite_source_grep_default_opts = '--line-numbers --nocolor --nogroup -S'
+let g:unite_source_grep_default_opts = '-tfS --nogroup --nocolor --line-numbers'
 let g:unite_source_grep_recursive_opt = ''
 
-" fuzzy find settings
-let g:unite_source_rec_async_command = 'ag --follow --nocolor --nogroup --hidden -g ""'
-
-" MAPPINGS
-nnoremap <C-p> :Unite -start-insert file_rec/async<cr>
-nnoremap <leader>f :Unite grep:"." <cr>
+" mappings
+nnoremap <C-p> :Unite -start-insert file_rec/async<CR>
+nnoremap <leader>f :Unite grep:"."<cr>
 
 autocmd FileType unite call s:unite_settings()
 function! s:unite_settings()
   let b:SuperTabDisabled=1
 
-  imap <buffer> <C-j>   <Plug>(unite_select_next_line)
-  imap <buffer> <C-k>   <Plug>(unite_select_previous_line)
+  imap <buffer> <C-j> <Plug>(unite_select_next_line)
+  imap <buffer> <C-k> <Plug>(unite_select_previous_line)
 endfunction
