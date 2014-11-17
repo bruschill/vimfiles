@@ -317,6 +317,7 @@ g:easytags_file	easytags.txt	/*g:easytags_file*
 g:easytags_include_members	easytags.txt	/*g:easytags_include_members*
 g:easytags_languages	easytags.txt	/*g:easytags_languages*
 g:easytags_on_cursorhold	easytags.txt	/*g:easytags_on_cursorhold*
+g:easytags_opts	easytags.txt	/*g:easytags_opts*
 g:easytags_python_enabled	easytags.txt	/*g:easytags_python_enabled*
 g:easytags_python_script	easytags.txt	/*g:easytags_python_script*
 g:easytags_resolve_links	easytags.txt	/*g:easytags_resolve_links*
