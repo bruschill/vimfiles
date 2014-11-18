@@ -585,6 +585,7 @@ neobundle#has_fresh_cache()	neobundle.txt	/*neobundle#has_fresh_cache()*
 neobundle#hooks	neobundle.txt	/*neobundle#hooks*
 neobundle#is_installed()	neobundle.txt	/*neobundle#is_installed()*
 neobundle#is_sourced()	neobundle.txt	/*neobundle#is_sourced()*
+neobundle#load_toml()	neobundle.txt	/*neobundle#load_toml()*
 neobundle#local()	neobundle.txt	/*neobundle#local()*
 neobundle#rc()	neobundle.txt	/*neobundle#rc()*
 neobundle#source()	neobundle.txt	/*neobundle#source()*
@@ -888,6 +889,10 @@ tern.txt	tern.txt	/*tern.txt*
 tern_show_argument_hints	tern.txt	/*tern_show_argument_hints*
 tern_show_signature_in_pum	tern.txt	/*tern_show_signature_in_pum*
 tests-for-miscellaneous-vim-scripts	misc.txt	/*tests-for-miscellaneous-vim-scripts*
+tmux-navigator	tmux-navigator.txt	/*tmux-navigator*
+tmux-navigator-configuration	tmux-navigator.txt	/*tmux-navigator-configuration*
+tmux-navigator-contents	tmux-navigator.txt	/*tmux-navigator-contents*
+tmux-navigator.txt	tmux-navigator.txt	/*tmux-navigator.txt*
 tmuxline	tmuxline.txt	/*tmuxline*
 tmuxline-api	tmuxline.txt	/*tmuxline-api*
 tmuxline-commands	tmuxline.txt	/*tmuxline-commands*
