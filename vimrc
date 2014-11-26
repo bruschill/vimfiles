@@ -141,8 +141,6 @@ set wildignore+=*.swp,*~,._*
 
 set dir=~/.vim/.temp
 
-set shortmess+=I
-
 set completeopt-=preview
 
 try
