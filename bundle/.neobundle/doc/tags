@@ -469,6 +469,7 @@ g:ycm_collect_identifiers_from_tags_files	youcompleteme.txt	/*g:ycm_collect_iden
 g:ycm_complete_in_comments	youcompleteme.txt	/*g:ycm_complete_in_comments*
 g:ycm_complete_in_strings	youcompleteme.txt	/*g:ycm_complete_in_strings*
 g:ycm_confirm_extra_conf	youcompleteme.txt	/*g:ycm_confirm_extra_conf*
+g:ycm_disable_for_files_larger_than_kb	youcompleteme.txt	/*g:ycm_disable_for_files_larger_than_kb*
 g:ycm_echo_current_diagnostic	youcompleteme.txt	/*g:ycm_echo_current_diagnostic*
 g:ycm_enable_diagnostic_highlighting	youcompleteme.txt	/*g:ycm_enable_diagnostic_highlighting*
 g:ycm_enable_diagnostic_signs	youcompleteme.txt	/*g:ycm_enable_diagnostic_signs*
@@ -1350,6 +1351,7 @@ youcompleteme-contact	youcompleteme.txt	/*youcompleteme-contact*
 youcompleteme-diagnostic-display	youcompleteme.txt	/*youcompleteme-diagnostic-display*
 youcompleteme-diagnostic-highlighting-groups	youcompleteme.txt	/*youcompleteme-diagnostic-highlighting-groups*
 youcompleteme-faq	youcompleteme.txt	/*youcompleteme-faq*
+youcompleteme-freebsd-openbsd-installation	youcompleteme.txt	/*youcompleteme-freebsd-openbsd-installation*
 youcompleteme-full-installation-guide	youcompleteme.txt	/*youcompleteme-full-installation-guide*
 youcompleteme-general-semantic-completion-engine-usage	youcompleteme.txt	/*youcompleteme-general-semantic-completion-engine-usage*
 youcompleteme-general-usage	youcompleteme.txt	/*youcompleteme-general-usage*
