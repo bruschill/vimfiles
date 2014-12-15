@@ -44,6 +44,7 @@ NeoBundle 'edkolev/tmuxline.vim'
 
 " colors
 NeoBundle 'altercation/vim-colors-solarized.git'
+NeoBundle 'ajh17/Spacegray.vim.git'
 
 " syntax
 "   ruby
@@ -81,7 +82,7 @@ NeoBundleCheck
 set t_Co=256
 set background=dark
 syntax on
-color solarized
+color spacegray
 
 set guifont=Source\ Code\ Pro\ for\ Powerline:h12
 
