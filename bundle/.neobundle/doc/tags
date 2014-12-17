@@ -326,6 +326,7 @@ g:easytags_suppress_ctags_warning	easytags.txt	/*g:easytags_suppress_ctags_warni
 g:easytags_suppress_report	easytags.txt	/*g:easytags_suppress_report*
 g:easytags_syntax_keyword	easytags.txt	/*g:easytags_syntax_keyword*
 g:easytags_updatetime_min	easytags.txt	/*g:easytags_updatetime_min*
+g:neobundle#cache_file	neobundle.txt	/*g:neobundle#cache_file*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
 g:neobundle#default_site	neobundle.txt	/*g:neobundle#default_site*
 g:neobundle#enable_name_conversion	neobundle.txt	/*g:neobundle#enable_name_conversion*
