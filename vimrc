@@ -44,7 +44,6 @@ NeoBundle 'edkolev/tmuxline.vim'
 
 " colors
 NeoBundle 'altercation/vim-colors-solarized.git'
-NeoBundle 'ajh17/Spacegray.vim.git'
 
 " syntax
 "   ruby
