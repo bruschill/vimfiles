@@ -82,7 +82,7 @@ NeoBundleCheck
 set t_Co=256
 set background=dark
 syntax on
-color solarized
+color spacegray
 
 set guifont=Source\ Code\ Pro\ for\ Powerline:h12
 
