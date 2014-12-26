@@ -96,8 +96,8 @@ set cursorline
 set switchbuf=useopen
 set backspace=indent,eol,start
 set timeout
-set timeoutlen=250
-set ttimeoutlen=100
+set timeoutlen=350
+set ttimeoutlen=200
 
 "statusline
 set laststatus=2
