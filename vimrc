@@ -15,11 +15,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Valloric/YouCompleteMe.git', {
   \'build_commands': 'git',
   \'build': {
-    \'mac': 'sh -c "git submodule update --init --recursive --force && ./install.sh"'
+    \'mac': 'sh -c "git submodule update --init --recursive --force && ./install.sh --clang-completer"'
   \}
 \}
-
-NeoBundle 'scrooloose/syntastic'
 
 NeoBundle 'Shougo/vimproc.vim.git', {
   \'build_commands': 'make',
@@ -35,6 +33,7 @@ NeoBundle 'tpope/vim-endwise.git'
 NeoBundle 'tpope/vim-surround.git'
 NeoBundle 'tpope/vim-repeat.git'
 NeoBundle 'tpope/vim-eunuch.git'
+NeoBundle 'scrooloose/syntastic'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'christoomey/vim-tmux-navigator.git'
 NeoBundle 'tomtom/tcomment_vim'
