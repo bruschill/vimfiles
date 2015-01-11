@@ -48,6 +48,7 @@
 'syntastic_warning_symbol'	syntastic.txt	/*'syntastic_warning_symbol'*
 :Ag	ag.txt	/*:Ag*
 :AgAdd	ag.txt	/*:AgAdd*
+:AgBuffer	ag.txt	/*:AgBuffer*
 :AgFile	ag.txt	/*:AgFile*
 :AgFromSearch	ag.txt	/*:AgFromSearch*
 :AgHelp	ag.txt	/*:AgHelp*
@@ -59,6 +60,7 @@
 :HighlightTags	easytags.txt	/*:HighlightTags*
 :LAg	ag.txt	/*:LAg*
 :LAgAdd	ag.txt	/*:LAgAdd*
+:LAgBuffer	ag.txt	/*:LAgBuffer*
 :LAgHelp	ag.txt	/*:LAgHelp*
 :NeoBundle	neobundle.txt	/*:NeoBundle*
 :NeoBundleCheck	neobundle.txt	/*:NeoBundleCheck*
@@ -299,12 +301,12 @@ ft-ruby-syntax	ft-ruby-syntax.txt	/*ft-ruby-syntax*
 g:ZoomWin_funcref	ZoomWin.txt	/*g:ZoomWin_funcref*
 g:ag_apply_lmappings	ag.txt	/*g:ag_apply_lmappings*
 g:ag_apply_qmappings	ag.txt	/*g:ag_apply_qmappings*
+g:ag_format	ag.txt	/*g:ag_format*
+g:ag_highlight	ag.txt	/*g:ag_highlight*
 g:ag_lhandler	ag.txt	/*g:ag_lhandler*
 g:ag_mapping_message	ag.txt	/*g:ag_mapping_message*
+g:ag_prg	ag.txt	/*g:ag_prg*
 g:ag_qhandler	ag.txt	/*g:ag_qhandler*
-g:agformat	ag.txt	/*g:agformat*
-g:aghighlight	ag.txt	/*g:aghighlight*
-g:agprg	ag.txt	/*g:agprg*
 g:easytags_always_enabled	easytags.txt	/*g:easytags_always_enabled*
 g:easytags_async	easytags.txt	/*g:easytags_async*
 g:easytags_auto_highlight	easytags.txt	/*g:easytags_auto_highlight*
@@ -860,6 +862,7 @@ syntastic-notes	syntastic.txt	/*syntastic-notes*
 syntastic-powershell	syntastic.txt	/*syntastic-powershell*
 syntastic-pymode	syntastic.txt	/*syntastic-pymode*
 syntastic-quickstart	syntastic.txt	/*syntastic-quickstart*
+syntastic-recommended	syntastic.txt	/*syntastic-recommended*
 syntastic-statusline-flag	syntastic.txt	/*syntastic-statusline-flag*
 syntastic-vim-auto-save	syntastic.txt	/*syntastic-vim-auto-save*
 syntastic-vim-virtualenv	syntastic.txt	/*syntastic-vim-virtualenv*
