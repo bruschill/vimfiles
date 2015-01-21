@@ -118,6 +118,7 @@
 :UniteWithProjectDir	unite.txt	/*:UniteWithProjectDir*
 :UpdateTags	easytags.txt	/*:UpdateTags*
 :VimProcBang	vimproc.txt	/*:VimProcBang*
+:VimProcInstall	vimproc.txt	/*:VimProcInstall*
 :VimProcRead	vimproc.txt	/*:VimProcRead*
 :YcmCompleter	youcompleteme.txt	/*:YcmCompleter*
 :YcmDebugInfo	youcompleteme.txt	/*:YcmDebugInfo*
@@ -415,7 +416,6 @@ g:unite_kind_openable_lcd_command	unite.txt	/*g:unite_kind_openable_lcd_command*
 g:unite_kind_openable_persist_open_blink_time	unite.txt	/*g:unite_kind_openable_persist_open_blink_time*
 g:unite_matcher_fuzzy_max_input_length	unite.txt	/*g:unite_matcher_fuzzy_max_input_length*
 g:unite_no_default_keymappings	unite.txt	/*g:unite_no_default_keymappings*
-g:unite_prompt	unite.txt	/*g:unite_prompt*
 g:unite_quick_match_table	unite.txt	/*g:unite_quick_match_table*
 g:unite_redraw_hold_candidates	unite.txt	/*g:unite_redraw_hold_candidates*
 g:unite_source_alias_aliases	unite.txt	/*g:unite_source_alias_aliases*
@@ -1058,6 +1058,7 @@ unite-options-auto-preview	unite.txt	/*unite-options-auto-preview*
 unite-options-auto-quit	unite.txt	/*unite-options-auto-quit*
 unite-options-auto-resize	unite.txt	/*unite-options-auto-resize*
 unite-options-buffer-name	unite.txt	/*unite-options-buffer-name*
+unite-options-candidate-icon	unite.txt	/*unite-options-candidate-icon*
 unite-options-col	unite.txt	/*unite-options-col*
 unite-options-complete	unite.txt	/*unite-options-complete*
 unite-options-create	unite.txt	/*unite-options-create*
@@ -1069,21 +1070,23 @@ unite-options-force-immediately	unite.txt	/*unite-options-force-immediately*
 unite-options-force-redraw	unite.txt	/*unite-options-force-redraw*
 unite-options-here	unite.txt	/*unite-options-here*
 unite-options-hide-source-names	unite.txt	/*unite-options-hide-source-names*
-unite-options-hide-status-line	unite.txt	/*unite-options-hide-status-line*
 unite-options-horizontal	unite.txt	/*unite-options-horizontal*
 unite-options-ignorecase	unite.txt	/*unite-options-ignorecase*
 unite-options-immediately	unite.txt	/*unite-options-immediately*
 unite-options-input	unite.txt	/*unite-options-input*
 unite-options-keep-focus	unite.txt	/*unite-options-keep-focus*
 unite-options-log	unite.txt	/*unite-options-log*
+unite-options-marked-icon	unite.txt	/*unite-options-marked-icon*
 unite-options-max-multi-lines	unite.txt	/*unite-options-max-multi-lines*
 unite-options-multi-line	unite.txt	/*unite-options-multi-line*
 unite-options-no-	unite.txt	/*unite-options-no-*
 unite-options-no-cursor-line	unite.txt	/*unite-options-no-cursor-line*
 unite-options-no-empty	unite.txt	/*unite-options-no-empty*
 unite-options-no-focus	unite.txt	/*unite-options-no-focus*
+unite-options-no-hide-icon	unite.txt	/*unite-options-no-hide-icon*
 unite-options-no-quit	unite.txt	/*unite-options-no-quit*
 unite-options-no-resize	unite.txt	/*unite-options-no-resize*
+unite-options-no-restore	unite.txt	/*unite-options-no-restore*
 unite-options-no-split	unite.txt	/*unite-options-no-split*
 unite-options-path	unite.txt	/*unite-options-path*
 unite-options-profile-name	unite.txt	/*unite-options-profile-name*
@@ -1091,7 +1094,6 @@ unite-options-prompt	unite.txt	/*unite-options-prompt*
 unite-options-prompt-direction	unite.txt	/*unite-options-prompt-direction*
 unite-options-prompt-visible	unite.txt	/*unite-options-prompt-visible*
 unite-options-quick-match	unite.txt	/*unite-options-quick-match*
-unite-options-restore	unite.txt	/*unite-options-restore*
 unite-options-resume	unite.txt	/*unite-options-resume*
 unite-options-select	unite.txt	/*unite-options-select*
 unite-options-short-source-names	unite.txt	/*unite-options-short-source-names*
@@ -1361,6 +1363,8 @@ youcompleteme-i-get-annoying-messages-in-vims-status-area-when-i-type	youcomplet
 youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine	youcompleteme.txt	/*youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine*
 youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting	youcompleteme.txt	/*youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting*
 youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults	youcompleteme.txt	/*youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults*
+youcompleteme-installation	youcompleteme.txt	/*youcompleteme-installation*
+youcompleteme-intro	youcompleteme.txt	/*youcompleteme-intro*
 youcompleteme-introduction	youcompleteme.txt	/*youcompleteme-introduction*
 youcompleteme-is-there-sort-of-ycm-mailing-list-i-have-questions	youcompleteme.txt	/*youcompleteme-is-there-sort-of-ycm-mailing-list-i-have-questions*
 youcompleteme-it-appears-that-ycm-is-not-working	youcompleteme.txt	/*youcompleteme-it-appears-that-ycm-is-not-working*
