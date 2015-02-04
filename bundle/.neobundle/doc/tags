@@ -256,6 +256,7 @@ airline-writing-extensions	airline.txt	/*airline-writing-extensions*
 airline.txt	airline.txt	/*airline.txt*
 b:tcomment_def_{NAME}	tcomment.txt	/*b:tcomment_def_{NAME}*
 before	solarized.txt	/*before*
+cS	surround.txt	/*cS*
 config/rails.vim	rails.txt	/*config\/rails.vim*
 cs	surround.txt	/*cs*
 customizing-easytags-plug-in	easytags.txt	/*customizing-easytags-plug-in*
