@@ -63,6 +63,14 @@ NeoBundle 'marijnh/tern_for_vim.git', {
   \}
 \}
 
+"   go
+NeoBundle 'fatih/vim-go', {
+  \'build_commands': 'vim',
+  \'build': {
+    \'mac': "vim -c 'GoUpdateBinaries' -c 'qa!'"
+  \}
+\}
+
 "   markup
 NeoBundle 'othree/html5.vim.git'
 NeoBundle 'hail2u/vim-css3-syntax.git'

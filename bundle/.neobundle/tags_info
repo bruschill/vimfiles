@@ -17,6 +17,7 @@ vim-easytags
 vim-endwise
 vim-eunuch
 vim-git
+vim-go
 vim-javascript
 vim-json
 vim-markdown
