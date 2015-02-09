@@ -904,6 +904,7 @@ ruby_minlines	ft-ruby-syntax.txt	/*ruby_minlines*
 ruby_no_expensive	ft-ruby-syntax.txt	/*ruby_no_expensive*
 ruby_operators	ft-ruby-syntax.txt	/*ruby_operators*
 ruby_space_errors	ft-ruby-syntax.txt	/*ruby_space_errors*
+ruby_spellcheck_strings	ft-ruby-syntax.txt	/*ruby_spellcheck_strings*
 solarized	solarized.txt	/*solarized*
 solarized-colors	solarized.txt	/*solarized-colors*
 solarized-colorscheme	solarized.txt	/*solarized-colorscheme*
