@@ -99,6 +99,7 @@
 (go-rename)	vim-go.txt	/*(go-rename)*
 (go-run)	vim-go.txt	/*(go-run)*
 (go-test)	vim-go.txt	/*(go-test)*
+(go-test-compile)	vim-go.txt	/*(go-test-compile)*
 (go-vet)	vim-go.txt	/*(go-vet)*
 :Ag	ag.txt	/*:Ag*
 :AgAdd	ag.txt	/*:AgAdd*
@@ -141,6 +142,7 @@
 :GoRename	vim-go.txt	/*:GoRename*
 :GoRun	vim-go.txt	/*:GoRun*
 :GoTest	vim-go.txt	/*:GoTest*
+:GoTestCompile	vim-go.txt	/*:GoTestCompile*
 :GoUpdateBinaries	vim-go.txt	/*:GoUpdateBinaries*
 :GoVet	vim-go.txt	/*:GoVet*
 :HighlightTags	easytags.txt	/*:HighlightTags*
@@ -312,6 +314,7 @@ airline-contents	airline.txt	/*airline-contents*
 airline-contributions	airline.txt	/*airline-contributions*
 airline-csv	airline.txt	/*airline-csv*
 airline-ctrlp	airline.txt	/*airline-ctrlp*
+airline-ctrlspace	airline.txt	/*airline-ctrlspace*
 airline-customization	airline.txt	/*airline-customization*
 airline-default	airline.txt	/*airline-default*
 airline-eclim	airline.txt	/*airline-eclim*
@@ -332,6 +335,7 @@ airline-quickfix	airline.txt	/*airline-quickfix*
 airline-sections	airline.txt	/*airline-sections*
 airline-syntastic	airline.txt	/*airline-syntastic*
 airline-tabline	airline.txt	/*airline-tabline*
+airline-taboo	airline.txt	/*airline-taboo*
 airline-tagbar	airline.txt	/*airline-tagbar*
 airline-themes	airline.txt	/*airline-themes*
 airline-tmuxline	airline.txt	/*airline-tmuxline*
@@ -559,6 +563,7 @@ g:ycm_collect_identifiers_from_tags_files	youcompleteme.txt	/*g:ycm_collect_iden
 g:ycm_complete_in_comments	youcompleteme.txt	/*g:ycm_complete_in_comments*
 g:ycm_complete_in_strings	youcompleteme.txt	/*g:ycm_complete_in_strings*
 g:ycm_confirm_extra_conf	youcompleteme.txt	/*g:ycm_confirm_extra_conf*
+g:ycm_csharp_server_port	youcompleteme.txt	/*g:ycm_csharp_server_port*
 g:ycm_disable_for_files_larger_than_kb	youcompleteme.txt	/*g:ycm_disable_for_files_larger_than_kb*
 g:ycm_echo_current_diagnostic	youcompleteme.txt	/*g:ycm_echo_current_diagnostic*
 g:ycm_enable_diagnostic_highlighting	youcompleteme.txt	/*g:ycm_enable_diagnostic_highlighting*
