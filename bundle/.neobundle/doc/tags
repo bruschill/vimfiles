@@ -275,6 +275,8 @@ ClearCompilationFlagCache	youcompleteme.txt	/*ClearCompilationFlagCache*
 Ctrl-sub-C	youcompleteme.txt	/*Ctrl-sub-C*
 E227:-mapping-already-exists-for-blah	youcompleteme.txt	/*E227:-mapping-already-exists-for-blah*
 GLIBC_2.XX-not-found()	youcompleteme.txt	/*GLIBC_2.XX-not-found()*
+GetParent	youcompleteme.txt	/*GetParent*
+GetType	youcompleteme.txt	/*GetType*
 GoTo	youcompleteme.txt	/*GoTo*
 GoToDeclaration	youcompleteme.txt	/*GoToDeclaration*
 GoToDefinition	youcompleteme.txt	/*GoToDefinition*
