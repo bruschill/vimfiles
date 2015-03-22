@@ -15,7 +15,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Valloric/YouCompleteMe.git', {
   \'build_commands': 'git',
   \'build': {
-    \'mac': 'sh -c "git submodule update --init --recursive --force && ./install.sh --clang-completer"'
+    \'mac': 'sh -c "./install.sh --clang-completer"'
   \}
 \}
 
