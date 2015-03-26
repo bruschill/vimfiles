@@ -2,3 +2,4 @@
 tags/*
 .temp/*
 .unite_cache/*
+bundle/.neobundle/install_info
