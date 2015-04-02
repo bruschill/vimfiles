@@ -101,6 +101,7 @@
 (go-run)	vim-go.txt	/*(go-run)*
 (go-test)	vim-go.txt	/*(go-test)*
 (go-test-compile)	vim-go.txt	/*(go-test-compile)*
+(go-test-func)	vim-go.txt	/*(go-test-func)*
 (go-vet)	vim-go.txt	/*(go-vet)*
 :Ag	ag.txt	/*:Ag*
 :AgAdd	ag.txt	/*:AgAdd*
@@ -144,6 +145,7 @@
 :GoRun	vim-go.txt	/*:GoRun*
 :GoTest	vim-go.txt	/*:GoTest*
 :GoTestCompile	vim-go.txt	/*:GoTestCompile*
+:GoTestFunc	vim-go.txt	/*:GoTestFunc*
 :GoUpdateBinaries	vim-go.txt	/*:GoUpdateBinaries*
 :GoVet	vim-go.txt	/*:GoVet*
 :HighlightTags	easytags.txt	/*:HighlightTags*
