@@ -76,7 +76,6 @@
 (go-build)	vim-go.txt	/*(go-build)*
 (go-callees)	vim-go.txt	/*(go-callees)*
 (go-callers)	vim-go.txt	/*(go-callers)*
-(go-callgraph)	vim-go.txt	/*(go-callgraph)*
 (go-callstack)	vim-go.txt	/*(go-callstack)*
 (go-channelpeers)	vim-go.txt	/*(go-channelpeers)*
 (go-coverage)	vim-go.txt	/*(go-coverage)*
@@ -117,7 +116,6 @@
 :GoBuild	vim-go.txt	/*:GoBuild*
 :GoCallees	vim-go.txt	/*:GoCallees*
 :GoCallers	vim-go.txt	/*:GoCallers*
-:GoCallgraph	vim-go.txt	/*:GoCallgraph*
 :GoCallstack	vim-go.txt	/*:GoCallstack*
 :GoChannelPeers	vim-go.txt	/*:GoChannelPeers*
 :GoCoverage	vim-go.txt	/*:GoCoverage*
@@ -1282,6 +1280,7 @@ unite-source-file_point	unite.txt	/*unite-source-file_point*
 unite-source-file_rec	unite.txt	/*unite-source-file_rec*
 unite-source-file_rec/async	unite.txt	/*unite-source-file_rec\/async*
 unite-source-file_rec/git	unite.txt	/*unite-source-file_rec\/git*
+unite-source-file_rec/neovim	unite.txt	/*unite-source-file_rec\/neovim*
 unite-source-find	unite.txt	/*unite-source-find*
 unite-source-function	unite.txt	/*unite-source-function*
 unite-source-grep	unite.txt	/*unite-source-grep*
@@ -1295,8 +1294,6 @@ unite-source-mapping	unite.txt	/*unite-source-mapping*
 unite-source-menu	unite.txt	/*unite-source-menu*
 unite-source-output	unite.txt	/*unite-source-output*
 unite-source-process	unite.txt	/*unite-source-process*
-unite-source-rec	unite.txt	/*unite-source-rec*
-unite-source-rec/async	unite.txt	/*unite-source-rec\/async*
 unite-source-register	unite.txt	/*unite-source-register*
 unite-source-runtimepath	unite.txt	/*unite-source-runtimepath*
 unite-source-script	unite.txt	/*unite-source-script*
