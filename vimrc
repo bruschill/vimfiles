@@ -35,11 +35,12 @@ NeoBundle 'tpope/vim-repeat.git'
 NeoBundle 'tpope/vim-eunuch.git'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'rking/ag.vim'
-NeoBundle 'christoomey/vim-tmux-navigator.git'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'regedarek/ZoomWin.git'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'edkolev/tmuxline.vim'
+NeoBundle 'christoomey/vim-tmux-navigator.git'
+NeoBundle 'tmux-plugins/vim-tmux'
 
 " colors
 NeoBundle 'altercation/vim-colors-solarized.git'
