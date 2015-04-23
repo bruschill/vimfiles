@@ -28,5 +28,6 @@ vim-ruby
 vim-ruby-minitest
 vim-surround
 vim-tmux
+vim-tmux-focus-events
 vim-tmux-navigator
 vimproc.vim
