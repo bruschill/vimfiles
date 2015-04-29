@@ -1471,6 +1471,7 @@ ySS	surround.txt	/*ySS*
 youcompleteme	youcompleteme.txt	/*youcompleteme*
 youcompleteme-c-diagnostic-support	youcompleteme.txt	/*youcompleteme-c-diagnostic-support*
 youcompleteme-c-family-semantic-completion-engine-usage	youcompleteme.txt	/*youcompleteme-c-family-semantic-completion-engine-usage*
+youcompleteme-c-semantic-completion	youcompleteme.txt	/*youcompleteme-c-semantic-completion*
 youcompleteme-client-server-architecture	youcompleteme.txt	/*youcompleteme-client-server-architecture*
 youcompleteme-commands	youcompleteme.txt	/*youcompleteme-commands*
 youcompleteme-completion-doesnt-work-with-c-standard-library-headers	youcompleteme.txt	/*youcompleteme-completion-doesnt-work-with-c-standard-library-headers*
@@ -1488,7 +1489,6 @@ youcompleteme-i-get-annoying-messages-in-vims-status-area-when-i-type	youcomplet
 youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine	youcompleteme.txt	/*youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine*
 youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting	youcompleteme.txt	/*youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting*
 youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults	youcompleteme.txt	/*youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults*
-youcompleteme-install-ycm-with-neobundle-36	youcompleteme.txt	/*youcompleteme-install-ycm-with-neobundle-36*
 youcompleteme-installation	youcompleteme.txt	/*youcompleteme-installation*
 youcompleteme-intro	youcompleteme.txt	/*youcompleteme-intro*
 youcompleteme-introduction	youcompleteme.txt	/*youcompleteme-introduction*
@@ -1499,6 +1499,7 @@ youcompleteme-mac-os-x-super-quick-installation	youcompleteme.txt	/*youcompletem
 youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu	youcompleteme.txt	/*youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu*
 youcompleteme-options	youcompleteme.txt	/*youcompleteme-options*
 youcompleteme-project-management	youcompleteme.txt	/*youcompleteme-project-management*
+youcompleteme-python-semantic-completion	youcompleteme.txt	/*youcompleteme-python-semantic-completion*
 youcompleteme-references	youcompleteme.txt	/*youcompleteme-references*
 youcompleteme-semantic-completion-for-other-languages	youcompleteme.txt	/*youcompleteme-semantic-completion-for-other-languages*
 youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal	youcompleteme.txt	/*youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal*
