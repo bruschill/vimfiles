@@ -238,14 +238,15 @@
 <Plug>(unite_print_candidate)	unite.txt	/*<Plug>(unite_print_candidate)*
 <Plug>(unite_print_message_log)	unite.txt	/*<Plug>(unite_print_message_log)*
 <Plug>(unite_quick_help)	unite.txt	/*<Plug>(unite_quick_help)*
-<Plug>(unite_quick_match_choose_action)	unite.txt	/*<Plug>(unite_quick_match_choose_action)*
 <Plug>(unite_quick_match_default_action)	unite.txt	/*<Plug>(unite_quick_match_default_action)*
+<Plug>(unite_quick_match_jump)	unite.txt	/*<Plug>(unite_quick_match_jump)*
 <Plug>(unite_redraw)	unite.txt	/*<Plug>(unite_redraw)*
 <Plug>(unite_restart)	unite.txt	/*<Plug>(unite_restart)*
 <Plug>(unite_rotate_next_source)	unite.txt	/*<Plug>(unite_rotate_next_source)*
 <Plug>(unite_rotate_previous_source)	unite.txt	/*<Plug>(unite_rotate_previous_source)*
 <Plug>(unite_skip_cursor_down)	unite.txt	/*<Plug>(unite_skip_cursor_down)*
 <Plug>(unite_skip_cursor_up)	unite.txt	/*<Plug>(unite_skip_cursor_up)*
+<Plug>(unite_smart_preview)	unite.txt	/*<Plug>(unite_smart_preview)*
 <Plug>(unite_toggle_auto_preview)	unite.txt	/*<Plug>(unite_toggle_auto_preview)*
 <Plug>(unite_toggle_mark_all_candidates)	unite.txt	/*<Plug>(unite_toggle_mark_all_candidates)*
 <Plug>(unite_toggle_mark_current_candidate)	unite.txt	/*<Plug>(unite_toggle_mark_current_candidate)*
@@ -634,8 +635,8 @@ i_<Plug>(unite_narrowing_path)	unite.txt	/*i_<Plug>(unite_narrowing_path)*
 i_<Plug>(unite_new_candidate)	unite.txt	/*i_<Plug>(unite_new_candidate)*
 i_<Plug>(unite_print_candidate)	unite.txt	/*i_<Plug>(unite_print_candidate)*
 i_<Plug>(unite_print_message_log)	unite.txt	/*i_<Plug>(unite_print_message_log)*
-i_<Plug>(unite_quick_match_choose_action)	unite.txt	/*i_<Plug>(unite_quick_match_choose_action)*
 i_<Plug>(unite_quick_match_default_action)	unite.txt	/*i_<Plug>(unite_quick_match_default_action)*
+i_<Plug>(unite_quick_match_jump)	unite.txt	/*i_<Plug>(unite_quick_match_jump)*
 i_<Plug>(unite_redraw)	unite.txt	/*i_<Plug>(unite_redraw)*
 i_<Plug>(unite_select_next_line)	unite.txt	/*i_<Plug>(unite_select_next_line)*
 i_<Plug>(unite_select_next_page)	unite.txt	/*i_<Plug>(unite_select_next_page)*
@@ -1212,6 +1213,7 @@ unite-options-no-resize	unite.txt	/*unite-options-no-resize*
 unite-options-no-restore	unite.txt	/*unite-options-no-restore*
 unite-options-no-split	unite.txt	/*unite-options-no-split*
 unite-options-path	unite.txt	/*unite-options-path*
+unite-options-previewheight	unite.txt	/*unite-options-previewheight*
 unite-options-profile-name	unite.txt	/*unite-options-profile-name*
 unite-options-prompt	unite.txt	/*unite-options-prompt*
 unite-options-prompt-direction	unite.txt	/*unite-options-prompt-direction*
@@ -1277,6 +1279,7 @@ unite-source-directory/new	unite.txt	/*unite-source-directory\/new*
 unite-source-file	unite.txt	/*unite-source-file*
 unite-source-file/async	unite.txt	/*unite-source-file\/async*
 unite-source-file/new	unite.txt	/*unite-source-file\/new*
+unite-source-file_list	unite.txt	/*unite-source-file_list*
 unite-source-file_point	unite.txt	/*unite-source-file_point*
 unite-source-file_rec	unite.txt	/*unite-source-file_rec*
 unite-source-file_rec/async	unite.txt	/*unite-source-file_rec\/async*
@@ -1472,6 +1475,7 @@ ySS	surround.txt	/*ySS*
 youcompleteme	youcompleteme.txt	/*youcompleteme*
 youcompleteme-c-diagnostic-support	youcompleteme.txt	/*youcompleteme-c-diagnostic-support*
 youcompleteme-c-family-semantic-completion-engine-usage	youcompleteme.txt	/*youcompleteme-c-family-semantic-completion-engine-usage*
+youcompleteme-c-semantic-completion	youcompleteme.txt	/*youcompleteme-c-semantic-completion*
 youcompleteme-client-server-architecture	youcompleteme.txt	/*youcompleteme-client-server-architecture*
 youcompleteme-commands	youcompleteme.txt	/*youcompleteme-commands*
 youcompleteme-completion-doesnt-work-with-c-standard-library-headers	youcompleteme.txt	/*youcompleteme-completion-doesnt-work-with-c-standard-library-headers*
@@ -1489,7 +1493,6 @@ youcompleteme-i-get-annoying-messages-in-vims-status-area-when-i-type	youcomplet
 youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine	youcompleteme.txt	/*youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine*
 youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting	youcompleteme.txt	/*youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting*
 youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults	youcompleteme.txt	/*youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults*
-youcompleteme-install-ycm-with-neobundle-36	youcompleteme.txt	/*youcompleteme-install-ycm-with-neobundle-36*
 youcompleteme-installation	youcompleteme.txt	/*youcompleteme-installation*
 youcompleteme-intro	youcompleteme.txt	/*youcompleteme-intro*
 youcompleteme-introduction	youcompleteme.txt	/*youcompleteme-introduction*
@@ -1500,6 +1503,7 @@ youcompleteme-mac-os-x-super-quick-installation	youcompleteme.txt	/*youcompletem
 youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu	youcompleteme.txt	/*youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu*
 youcompleteme-options	youcompleteme.txt	/*youcompleteme-options*
 youcompleteme-project-management	youcompleteme.txt	/*youcompleteme-project-management*
+youcompleteme-python-semantic-completion	youcompleteme.txt	/*youcompleteme-python-semantic-completion*
 youcompleteme-references	youcompleteme.txt	/*youcompleteme-references*
 youcompleteme-semantic-completion-for-other-languages	youcompleteme.txt	/*youcompleteme-semantic-completion-for-other-languages*
 youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal	youcompleteme.txt	/*youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal*
