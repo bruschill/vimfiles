@@ -497,7 +497,6 @@ g:tcommentTextObjectInlineComment	tcomment.txt	/*g:tcommentTextObjectInlineComme
 g:tcomment_types	tcomment.txt	/*g:tcomment_types*
 g:unite_abbr_highlight	unite.txt	/*g:unite_abbr_highlight*
 g:unite_converter_file_directory_width	unite.txt	/*g:unite_converter_file_directory_width*
-g:unite_cursor_line_highlight	unite.txt	/*g:unite_cursor_line_highlight*
 g:unite_cursor_line_time	unite.txt	/*g:unite_cursor_line_time*
 g:unite_data_directory	unite.txt	/*g:unite_data_directory*
 g:unite_enable_short_source_names	unite.txt	/*g:unite_enable_short_source_names*
@@ -703,9 +702,9 @@ neobundle#has_fresh_cache()	neobundle.txt	/*neobundle#has_fresh_cache()*
 neobundle#hooks	neobundle.txt	/*neobundle#hooks*
 neobundle#is_installed()	neobundle.txt	/*neobundle#is_installed()*
 neobundle#is_sourced()	neobundle.txt	/*neobundle#is_sourced()*
+neobundle#load_cache()	neobundle.txt	/*neobundle#load_cache()*
 neobundle#load_toml()	neobundle.txt	/*neobundle#load_toml()*
 neobundle#local()	neobundle.txt	/*neobundle#local()*
-neobundle#rc()	neobundle.txt	/*neobundle#rc()*
 neobundle#source()	neobundle.txt	/*neobundle#source()*
 neobundle#tap()	neobundle.txt	/*neobundle#tap()*
 neobundle#tapped	neobundle.txt	/*neobundle#tapped*
@@ -736,6 +735,7 @@ neobundle-options-focus	neobundle.txt	/*neobundle-options-focus*
 neobundle-options-force	neobundle.txt	/*neobundle-options-force*
 neobundle-options-gui	neobundle.txt	/*neobundle-options-gui*
 neobundle-options-hooks	neobundle.txt	/*neobundle-options-hooks*
+neobundle-options-install_process_timeout	neobundle.txt	/*neobundle-options-install_process_timeout*
 neobundle-options-lazy	neobundle.txt	/*neobundle-options-lazy*
 neobundle-options-name	neobundle.txt	/*neobundle-options-name*
 neobundle-options-overwrite	neobundle.txt	/*neobundle-options-overwrite*
@@ -1186,7 +1186,6 @@ unite-options-candidate-icon	unite.txt	/*unite-options-candidate-icon*
 unite-options-col	unite.txt	/*unite-options-col*
 unite-options-complete	unite.txt	/*unite-options-complete*
 unite-options-create	unite.txt	/*unite-options-create*
-unite-options-cursor-line-highlight	unite.txt	/*unite-options-cursor-line-highlight*
 unite-options-cursor-line-time	unite.txt	/*unite-options-cursor-line-time*
 unite-options-default-action	unite.txt	/*unite-options-default-action*
 unite-options-direction	unite.txt	/*unite-options-direction*
@@ -1475,6 +1474,7 @@ ySS	surround.txt	/*ySS*
 youcompleteme	youcompleteme.txt	/*youcompleteme*
 youcompleteme-c-diagnostic-support	youcompleteme.txt	/*youcompleteme-c-diagnostic-support*
 youcompleteme-c-family-semantic-completion-engine-usage	youcompleteme.txt	/*youcompleteme-c-family-semantic-completion-engine-usage*
+youcompleteme-c-semantic-completion	youcompleteme.txt	/*youcompleteme-c-semantic-completion*
 youcompleteme-client-server-architecture	youcompleteme.txt	/*youcompleteme-client-server-architecture*
 youcompleteme-commands	youcompleteme.txt	/*youcompleteme-commands*
 youcompleteme-completion-doesnt-work-with-c-standard-library-headers	youcompleteme.txt	/*youcompleteme-completion-doesnt-work-with-c-standard-library-headers*
@@ -1492,7 +1492,6 @@ youcompleteme-i-get-annoying-messages-in-vims-status-area-when-i-type	youcomplet
 youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine	youcompleteme.txt	/*youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine*
 youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting	youcompleteme.txt	/*youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting*
 youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults	youcompleteme.txt	/*youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults*
-youcompleteme-install-ycm-with-neobundle-36	youcompleteme.txt	/*youcompleteme-install-ycm-with-neobundle-36*
 youcompleteme-installation	youcompleteme.txt	/*youcompleteme-installation*
 youcompleteme-intro	youcompleteme.txt	/*youcompleteme-intro*
 youcompleteme-introduction	youcompleteme.txt	/*youcompleteme-introduction*
@@ -1503,6 +1502,7 @@ youcompleteme-mac-os-x-super-quick-installation	youcompleteme.txt	/*youcompletem
 youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu	youcompleteme.txt	/*youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu*
 youcompleteme-options	youcompleteme.txt	/*youcompleteme-options*
 youcompleteme-project-management	youcompleteme.txt	/*youcompleteme-project-management*
+youcompleteme-python-semantic-completion	youcompleteme.txt	/*youcompleteme-python-semantic-completion*
 youcompleteme-references	youcompleteme.txt	/*youcompleteme-references*
 youcompleteme-semantic-completion-for-other-languages	youcompleteme.txt	/*youcompleteme-semantic-completion-for-other-languages*
 youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal	youcompleteme.txt	/*youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal*

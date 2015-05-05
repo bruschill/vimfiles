@@ -113,9 +113,6 @@ set laststatus=2
 
 "tab settings
 set autoindent
-set ts=2
-set sw=2
-set sts=2
 
 "searching
 set showmatch
