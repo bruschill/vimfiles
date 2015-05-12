@@ -8,6 +8,7 @@ rspec.vim
 syntastic
 tcomment_vim
 tern_for_vim
+thrift.vim
 tmuxline.vim
 unite.vim
 vim-airline

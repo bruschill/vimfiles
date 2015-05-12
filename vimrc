@@ -52,6 +52,7 @@ NeoBundle 'vim-ruby/vim-ruby.git'
 NeoBundle 'tpope/vim-rails.git'
 NeoBundle 'Keithbsmiley/rspec.vim.git'
 NeoBundle 'sunaku/vim-ruby-minitest'
+NeoBundle 'solarnz/thrift.vim'
 
 "   javascript
 NeoBundle 'pangloss/vim-javascript.git'
