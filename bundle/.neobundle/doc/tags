@@ -989,6 +989,7 @@ syntastic-vim-auto-save	syntastic.txt	/*syntastic-vim-auto-save*
 syntastic-vim-go	syntastic.txt	/*syntastic-vim-go*
 syntastic-vim-virtualenv	syntastic.txt	/*syntastic-vim-virtualenv*
 syntastic-ycm	syntastic.txt	/*syntastic-ycm*
+syntastic-zsh	syntastic.txt	/*syntastic-zsh*
 syntastic.txt	syntastic.txt	/*syntastic.txt*
 tcomment#Comment()	tcomment.txt	/*tcomment#Comment()*
 tcomment#CommentAs()	tcomment.txt	/*tcomment#CommentAs()*
