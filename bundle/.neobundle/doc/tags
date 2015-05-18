@@ -539,6 +539,7 @@ g:unite_source_menu_menus	unite.txt	/*g:unite_source_menu_menus*
 g:unite_source_neobundle_install_max_processes	neobundle.txt	/*g:unite_source_neobundle_install_max_processes*
 g:unite_source_process_enable_confirm	unite.txt	/*g:unite_source_process_enable_confirm*
 g:unite_source_rec_async_command	unite.txt	/*g:unite_source_rec_async_command*
+g:unite_source_rec_find_args	unite.txt	/*g:unite_source_rec_find_args*
 g:unite_source_rec_git_command	unite.txt	/*g:unite_source_rec_git_command*
 g:unite_source_rec_max_cache_files	unite.txt	/*g:unite_source_rec_max_cache_files*
 g:unite_source_rec_min_cache_files	unite.txt	/*g:unite_source_rec_min_cache_files*
@@ -1230,6 +1231,7 @@ unite-options-sync	unite.txt	/*unite-options-sync*
 unite-options-tab	unite.txt	/*unite-options-tab*
 unite-options-toggle	unite.txt	/*unite-options-toggle*
 unite-options-truncate	unite.txt	/*unite-options-truncate*
+unite-options-truncate-width	unite.txt	/*unite-options-truncate-width*
 unite-options-unique	unite.txt	/*unite-options-unique*
 unite-options-update-time	unite.txt	/*unite-options-update-time*
 unite-options-verbose	unite.txt	/*unite-options-verbose*
@@ -1241,6 +1243,8 @@ unite-options-wipe	unite.txt	/*unite-options-wipe*
 unite-options-wrap	unite.txt	/*unite-options-wrap*
 unite-source-alias	unite.txt	/*unite-source-alias*
 unite-source-arg-!	unite.txt	/*unite-source-arg-!*
+unite-source-arg-?	unite.txt	/*unite-source-arg-?*
+unite-source-arg-?!	unite.txt	/*unite-source-arg-?!*
 unite-source-attribute-action_table	unite.txt	/*unite-source-attribute-action_table*
 unite-source-attribute-alias_table	unite.txt	/*unite-source-attribute-alias_table*
 unite-source-attribute-async_gather_candidates	unite.txt	/*unite-source-attribute-async_gather_candidates*
