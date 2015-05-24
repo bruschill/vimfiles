@@ -3,6 +3,7 @@
 'b:syntastic_mode'	syntastic.txt	/*'b:syntastic_mode'*
 'b:syntastic_skip_checks'	syntastic.txt	/*'b:syntastic_skip_checks'*
 'g:go_auto_type_info'	vim-go.txt	/*'g:go_auto_type_info'*
+'g:go_autodetect_gopath'	vim-go.txt	/*'g:go_autodetect_gopath'*
 'g:go_bin_path'	vim-go.txt	/*'g:go_bin_path'*
 'g:go_def_mapping_enabled'	vim-go.txt	/*'g:go_def_mapping_enabled'*
 'g:go_dispatch_enabled'	vim-go.txt	/*'g:go_dispatch_enabled'*
@@ -138,6 +139,8 @@
 :GoInstall	vim-go.txt	/*:GoInstall*
 :GoInstallBinaries	vim-go.txt	/*:GoInstallBinaries*
 :GoLint	vim-go.txt	/*:GoLint*
+:GoPath	vim-go.txt	/*:GoPath*
+:GoPathClear	vim-go.txt	/*:GoPathClear*
 :GoPlay	vim-go.txt	/*:GoPlay*
 :GoReferrers	vim-go.txt	/*:GoReferrers*
 :GoRename	vim-go.txt	/*:GoRename*
