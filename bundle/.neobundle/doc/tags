@@ -139,6 +139,7 @@
 :GoInstall	vim-go.txt	/*:GoInstall*
 :GoInstallBinaries	vim-go.txt	/*:GoInstallBinaries*
 :GoLint	vim-go.txt	/*:GoLint*
+:GoOracleScope	vim-go.txt	/*:GoOracleScope*
 :GoPath	vim-go.txt	/*:GoPath*
 :GoPathClear	vim-go.txt	/*:GoPathClear*
 :GoPlay	vim-go.txt	/*:GoPlay*

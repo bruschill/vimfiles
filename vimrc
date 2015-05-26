@@ -13,18 +13,17 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
 NeoBundle 'Valloric/YouCompleteMe.git', {
-  \'build_commands': 'git',
   \'build': {
     \'mac': 'sh -c "./install.sh"'
   \}
 \}
 
 NeoBundle 'Shougo/vimproc.vim.git', {
-  \'build_commands': 'make',
   \'build': {
     \'mac': 'sh -c "make clean && make"'
   \}
 \}
+
 
 NeoBundle 'Shougo/unite.vim.git'
 NeoBundle 'xolox/vim-easytags'
@@ -141,6 +140,10 @@ set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 set wildignore+=*.swp,*~,._*
+
+"listchars
+set list
+set lcs=trail:•
 
 set dir=~/.vim/.temp
 
