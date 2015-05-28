@@ -25,6 +25,7 @@
 'g:go_highlight_space_tab_error'	vim-go.txt	/*'g:go_highlight_space_tab_error'*
 'g:go_highlight_structs'	vim-go.txt	/*'g:go_highlight_structs'*
 'g:go_highlight_trailing_whitespace_error'	vim-go.txt	/*'g:go_highlight_trailing_whitespace_error'*
+'g:go_jump_to_error'	vim-go.txt	/*'g:go_jump_to_error'*
 'g:go_oracle_scope'	vim-go.txt	/*'g:go_oracle_scope'*
 'g:go_play_browser_command'	vim-go.txt	/*'g:go_play_browser_command'*
 'g:go_play_open_browser'	vim-go.txt	/*'g:go_play_open_browser'*
@@ -141,7 +142,6 @@
 :GoLint	vim-go.txt	/*:GoLint*
 :GoOracleScope	vim-go.txt	/*:GoOracleScope*
 :GoPath	vim-go.txt	/*:GoPath*
-:GoPathClear	vim-go.txt	/*:GoPathClear*
 :GoPlay	vim-go.txt	/*:GoPlay*
 :GoReferrers	vim-go.txt	/*:GoReferrers*
 :GoRename	vim-go.txt	/*:GoRename*
