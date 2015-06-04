@@ -694,6 +694,7 @@ misc-version-string-handling	misc.txt	/*misc-version-string-handling*
 misc-vim-plug-in-option-handling	misc.txt	/*misc-vim-plug-in-option-handling*
 misc.txt	misc.txt	/*misc.txt*
 neobundle	neobundle.txt	/*neobundle*
+neobundle#append()	neobundle.txt	/*neobundle#append()*
 neobundle#begin()	neobundle.txt	/*neobundle#begin()*
 neobundle#bundle()	neobundle.txt	/*neobundle#bundle()*
 neobundle#call_hook()	neobundle.txt	/*neobundle#call_hook()*
