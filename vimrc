@@ -24,8 +24,13 @@ NeoBundle 'Shougo/vimproc.vim.git', {
   \}
 \}
 
+NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'nixprime/cpsm', {
+  \'build': {
+    \'mac': 'sh -c "./install.sh"'
+  \}
+\}
 
-NeoBundle 'Shougo/unite.vim.git'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'tpope/vim-endwise.git'
@@ -138,6 +143,7 @@ set matchtime=3
 set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
 set wildignore+=*.swp,*~,._*
 
 "listchars
