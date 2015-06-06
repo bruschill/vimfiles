@@ -42,6 +42,8 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'regedarek/ZoomWin.git'
 NeoBundle 'bling/vim-airline'
+
+" tmux-related
 NeoBundle 'edkolev/tmuxline.vim'
 NeoBundle 'christoomey/vim-tmux-navigator.git'
 NeoBundle 'tmux-plugins/vim-tmux'
@@ -63,12 +65,6 @@ NeoBundle 'pangloss/vim-javascript.git'
 
 NeoBundle 'othree/javascript-libraries-syntax.vim.git'
 NeoBundle 'elzr/vim-json.git'
-NeoBundle 'marijnh/tern_for_vim.git', {
-  \'build_commands': 'npm',
-  \'build': {
-    \'mac': 'sh -c "npm install"'
-  \}
-\}
 
 "   go
 NeoBundle 'fatih/vim-go', {

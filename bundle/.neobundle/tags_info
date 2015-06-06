@@ -10,7 +10,6 @@ rspec.vim
 scss-syntax.vim
 syntastic
 tcomment_vim
-tern_for_vim
 tmuxline.vim
 vim-airline
 vim-colors-solarized
