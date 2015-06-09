@@ -24,13 +24,6 @@ NeoBundle 'Shougo/vimproc.vim.git', {
   \}
 \}
 
-NeoBundle 'ctrlpvim/ctrlp.vim'
-NeoBundle 'nixprime/cpsm', {
-  \'build': {
-    \'mac': 'sh -c "./install.sh"'
-  \}
-\}
-
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'tpope/vim-endwise.git'
