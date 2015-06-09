@@ -24,6 +24,7 @@ NeoBundle 'Shougo/vimproc.vim.git', {
   \}
 \}
 
+NeoBundle 'Shougo/unite.vim'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'tpope/vim-endwise.git'

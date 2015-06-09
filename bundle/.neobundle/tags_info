@@ -9,6 +9,7 @@ scss-syntax.vim
 syntastic
 tcomment_vim
 tmuxline.vim
+unite.vim
 vim-airline
 vim-colors-solarized
 vim-css3-syntax
