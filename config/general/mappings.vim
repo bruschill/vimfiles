@@ -10,7 +10,7 @@ nmap <Leader>tn :tabnew<CR>
 nmap <Leader>tc :tabclose<CR>
 
 "mapping enter to clear search when pressed
-nnoremap <cr> :noh<cr>
+nmap <cr> :noh<cr>
 
 " Some helpers to edit mode
 nmap <leader>ew :e <C-R>=expand('%:h').'/'<cr>

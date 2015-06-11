@@ -12,19 +12,18 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
-NeoBundle 'Valloric/YouCompleteMe.git', {
+NeoBundle 'Valloric/YouCompleteMe', {
   \'build': {
     \'mac': 'sh -c "./install.sh"'
   \}
 \}
 
-NeoBundle 'Shougo/vimproc.vim.git', {
+NeoBundle 'Shougo/vimproc.vim', {
   \'build': {
     \'mac': 'sh -c "make clean && make"'
   \}
 \}
 
-NeoBundle 'Shougo/unite.vim'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'tpope/vim-endwise.git'
@@ -36,6 +35,14 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'regedarek/ZoomWin.git'
 NeoBundle 'bling/vim-airline'
+
+" ctrlp-related
+NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'nixprime/cpsm', {
+  \'build': {
+    \'mac': 'sh -c "./install.sh"'
+  \}
+\}
 
 " tmux-related
 NeoBundle 'edkolev/tmuxline.vim'
