@@ -63,7 +63,6 @@ NeoBundle 'cakebaker/scss-syntax.vim'
 
 "   javascript
 NeoBundle 'pangloss/vim-javascript.git'
-
 NeoBundle 'othree/javascript-libraries-syntax.vim.git'
 NeoBundle 'elzr/vim-json.git'
 
@@ -82,6 +81,7 @@ NeoBundle 'plasticboy/vim-markdown.git'
 
 "   other
 NeoBundle 'tpope/vim-git'
+NeoBundle 'jystic/thrift.vim'
 
 call neobundle#end()
 
