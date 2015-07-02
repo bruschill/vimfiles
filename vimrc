@@ -144,8 +144,7 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
 set wildignore+=*.swp,*~,._*
 
 "listchars
-set list
-set lcs=trail:•
+set nolist
 
 set dir=~/.vim/.temp
 
