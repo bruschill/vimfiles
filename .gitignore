@@ -2,3 +2,4 @@
 tags/*
 .temp/*
 .ctrlp
+.unite_cache
