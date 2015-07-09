@@ -52,6 +52,7 @@ NeoBundle 'tmux-plugins/vim-tmux-focus-events'
 
 " colors
 NeoBundle 'altercation/vim-colors-solarized.git'
+NeoBundle 'NLKNguyen/papercolor-theme'
 
 " syntax
 "   ruby
@@ -90,8 +91,8 @@ filetype plugin indent on
 NeoBundleCheck
 
 set t_Co=256
-set background=dark
 syntax on
+set background=dark
 color solarized
 
 set guifont=Source\ Code\ Pro\ for\ Powerline:h12

@@ -6,6 +6,7 @@ ctrlp.vim
 html5.vim
 javascript-libraries-syntax.vim
 neobundle.vim
+papercolor-theme
 rspec.vim
 scss-syntax.vim
 syntastic
