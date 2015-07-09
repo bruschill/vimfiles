@@ -442,6 +442,7 @@ g:ag_lhandler	ag.txt	/*g:ag_lhandler*
 g:ag_mapping_message	ag.txt	/*g:ag_mapping_message*
 g:ag_prg	ag.txt	/*g:ag_prg*
 g:ag_qhandler	ag.txt	/*g:ag_qhandler*
+g:ag_working_path_mode	ag.txt	/*g:ag_working_path_mode*
 g:ctrlp_dont_split	ctrlp.txt	/*g:ctrlp_dont_split*
 g:ctrlp_dotfiles	ctrlp.txt	/*g:ctrlp_dotfiles*
 g:ctrlp_highlight_match	ctrlp.txt	/*g:ctrlp_highlight_match*
