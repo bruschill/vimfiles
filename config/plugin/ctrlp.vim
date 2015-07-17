@@ -1,3 +1,4 @@
+let g:ctrlp_cmd = 'CtrlPMixed'
 "setting local working directory
 let g:ctrlp_working_path_mode = 'a'
 
@@ -17,5 +18,7 @@ let g:ctrlp_follow_symlinks = 1
 " custom user command
 let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden --ignore .git --ignore .svn --ignore .hg --ignore .DS_Store --ignore "**/*.pyc" -g ""'
 
-"cpsm plugin config
+" cpsm plugin config
 let g:ctrlp_match_func = {'match': 'cpsm#CtrlPMatch'}
+
+let g:ctrlp_extensions = ['tag', 'mixed']

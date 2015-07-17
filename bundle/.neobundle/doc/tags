@@ -938,6 +938,7 @@ syntastic-filetype-checkers	syntastic.txt	/*syntastic-filetype-checkers*
 syntastic-filtering-errors	syntastic.txt	/*syntastic-filtering-errors*
 syntastic-fish	syntastic.txt	/*syntastic-fish*
 syntastic-fizsh	syntastic.txt	/*syntastic-fizsh*
+syntastic-flagship	syntastic.txt	/*syntastic-flagship*
 syntastic-functionality	syntastic.txt	/*syntastic-functionality*
 syntastic-global-options	syntastic.txt	/*syntastic-global-options*
 syntastic-highlighting	syntastic.txt	/*syntastic-highlighting*
