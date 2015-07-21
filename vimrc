@@ -95,7 +95,7 @@ syntax on
 set background=dark
 color solarized
 
-set guifont=Source\ Code\ Pro\ for\ Powerline:h12
+set guifont=Source\ Code\ Pro:h12
 
 "general
 set encoding=utf-8
