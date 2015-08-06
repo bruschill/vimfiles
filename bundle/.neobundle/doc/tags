@@ -433,6 +433,7 @@ filter-overrides	syntastic.txt	/*filter-overrides*
 ft-gitcommit-plugin	ft-gitcommit-plugin.txt	/*ft-gitcommit-plugin*
 ft-ruby-omni	ft-ruby-omni.txt	/*ft-ruby-omni*
 ft-ruby-syntax	ft-ruby-syntax.txt	/*ft-ruby-syntax*
+ft-rubyminitest-syntax	ft-ruby-minitest-syntax.txt	/*ft-rubyminitest-syntax*
 g:ZoomWin_funcref	ZoomWin.txt	/*g:ZoomWin_funcref*
 g:ag_apply_lmappings	ag.txt	/*g:ag_apply_lmappings*
 g:ag_apply_qmappings	ag.txt	/*g:ag_apply_qmappings*
@@ -890,6 +891,7 @@ ruby-access-modifier-indentation	vim-ruby.txt	/*ruby-access-modifier-indentation
 ruby-am	vim-ruby.txt	/*ruby-am*
 ruby-iM	vim-ruby.txt	/*ruby-iM*
 ruby-im	vim-ruby.txt	/*ruby-im*
+ruby-minitest-syntax.vim	ft-ruby-minitest-syntax.txt	/*ruby-minitest-syntax.vim*
 ruby-motion	vim-ruby.txt	/*ruby-motion*
 ruby-text-objects	vim-ruby.txt	/*ruby-text-objects*
 ruby-v_aM	vim-ruby.txt	/*ruby-v_aM*
@@ -898,6 +900,7 @@ ruby-v_iM	vim-ruby.txt	/*ruby-v_iM*
 ruby-v_im	vim-ruby.txt	/*ruby-v_im*
 ruby.vim	ft-ruby-syntax.txt	/*ruby.vim*
 ruby_fold	ft-ruby-syntax.txt	/*ruby_fold*
+ruby_minitest_fold	ft-ruby-minitest-syntax.txt	/*ruby_minitest_fold*
 ruby_minlines	ft-ruby-syntax.txt	/*ruby_minlines*
 ruby_no_expensive	ft-ruby-syntax.txt	/*ruby_no_expensive*
 ruby_operators	ft-ruby-syntax.txt	/*ruby_operators*
