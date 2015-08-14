@@ -24,6 +24,7 @@
 'g:ctrlp_follow_symlinks'	ctrlp.txt	/*'g:ctrlp_follow_symlinks'*
 'g:ctrlp_key_loop'	ctrlp.txt	/*'g:ctrlp_key_loop'*
 'g:ctrlp_lazy_update'	ctrlp.txt	/*'g:ctrlp_lazy_update'*
+'g:ctrlp_line_prefix'	ctrlp.txt	/*'g:ctrlp_line_prefix'*
 'g:ctrlp_map'	ctrlp.txt	/*'g:ctrlp_map'*
 'g:ctrlp_match_func'	ctrlp.txt	/*'g:ctrlp_match_func'*
 'g:ctrlp_match_window'	ctrlp.txt	/*'g:ctrlp_match_window'*
@@ -41,6 +42,7 @@
 'g:ctrlp_open_func'	ctrlp.txt	/*'g:ctrlp_open_func'*
 'g:ctrlp_open_multiple_files'	ctrlp.txt	/*'g:ctrlp_open_multiple_files'*
 'g:ctrlp_open_new_file'	ctrlp.txt	/*'g:ctrlp_open_new_file'*
+'g:ctrlp_open_single_match'	ctrlp.txt	/*'g:ctrlp_open_single_match'*
 'g:ctrlp_prompt_mappings'	ctrlp.txt	/*'g:ctrlp_prompt_mappings'*
 'g:ctrlp_regexp'	ctrlp.txt	/*'g:ctrlp_regexp'*
 'g:ctrlp_reuse_window'	ctrlp.txt	/*'g:ctrlp_reuse_window'*
