@@ -310,6 +310,7 @@ ControlP	ctrlp.txt	/*ControlP*
 Ctrl-sub-C	youcompleteme.txt	/*Ctrl-sub-C*
 CtrlP	ctrlp.txt	/*CtrlP*
 E227:-mapping-already-exists-for-blah	youcompleteme.txt	/*E227:-mapping-already-exists-for-blah*
+FixIt	youcompleteme.txt	/*FixIt*
 GLIBC_2.XX-not-found()	youcompleteme.txt	/*GLIBC_2.XX-not-found()*
 GetParent	youcompleteme.txt	/*GetParent*
 GetType	youcompleteme.txt	/*GetType*
@@ -1188,7 +1189,6 @@ youcompleteme-license	youcompleteme.txt	/*youcompleteme-license*
 youcompleteme-mac-os-x-super-quick-installation	youcompleteme.txt	/*youcompleteme-mac-os-x-super-quick-installation*
 youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu	youcompleteme.txt	/*youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu*
 youcompleteme-options	youcompleteme.txt	/*youcompleteme-options*
-youcompleteme-project-management	youcompleteme.txt	/*youcompleteme-project-management*
 youcompleteme-references	youcompleteme.txt	/*youcompleteme-references*
 youcompleteme-semantic-completion-for-other-languages	youcompleteme.txt	/*youcompleteme-semantic-completion-for-other-languages*
 youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal	youcompleteme.txt	/*youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal*
