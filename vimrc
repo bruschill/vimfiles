@@ -63,8 +63,9 @@ NeoBundle 'sunaku/vim-ruby-minitest'
 NeoBundle 'cakebaker/scss-syntax.vim'
 
 "   javascript
-NeoBundle 'pangloss/vim-javascript.git'
-NeoBundle 'othree/javascript-libraries-syntax.vim.git'
+NeoBundleLazy 'pangloss/vim-javascript.git', {'autoload':{'filetypes':['javascript']}}
+NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
+NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload':{'filetypes':['javascript']}}
 NeoBundle 'elzr/vim-json.git'
 
 "   go
