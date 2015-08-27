@@ -35,6 +35,11 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'regedarek/ZoomWin.git'
 NeoBundle 'bling/vim-airline'
+NeoBundle 'marijnh/tern_for_vim', {
+  \'build': {
+    \'mac': 'sh -c "npm install"'
+  \}
+\}
 
 " ctrlp-related
 NeoBundle 'ctrlpvim/ctrlp.vim'
