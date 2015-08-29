@@ -61,11 +61,10 @@ NeoBundle 'NLKNguyen/papercolor-theme'
 
 " syntax
 "   ruby
-NeoBundle 'vim-ruby/vim-ruby.git'
-NeoBundle 'tpope/vim-rails.git'
-NeoBundle 'Keithbsmiley/rspec.vim.git'
-NeoBundle 'sunaku/vim-ruby-minitest'
-NeoBundle 'cakebaker/scss-syntax.vim'
+NeoBundleLazy 'vim-ruby/vim-ruby.git', {'autoload':{'filetypes':['ruby', 'eruby']}}
+NeoBundleLazy 'tpope/vim-rails.git', {'autoload':{'filetypes':['ruby', 'eruby']}}
+NeoBundleLazy 'Keithbsmiley/rspec.vim.git', {'autoload':{'filetypes':['ruby']}}
+NeoBundleLazy 'sunaku/vim-ruby-minitest', {'autoload':{'filetypes':['ruby']}}
 
 "   javascript
 NeoBundleLazy 'pangloss/vim-javascript.git', {'autoload':{'filetypes':['javascript', 'html']}}
@@ -84,13 +83,13 @@ NeoBundle 'fatih/vim-go', {
 \}
 
 "   markup
-NeoBundle 'othree/html5.vim.git'
-NeoBundle 'hail2u/vim-css3-syntax.git'
+NeoBundleLazy 'othree/html5.vim.git', {'autoload':{'filetypes':['html', 'javascript', 'eruby']}}
+NeoBundleLazy 'hail2u/vim-css3-syntax.git', {'autoload':{'filetypes':['html', 'css', 'eruby']}}
 NeoBundle 'plasticboy/vim-markdown.git'
+NeoBundle 'cakebaker/scss-syntax.vim'
 
 "   other
 NeoBundle 'tpope/vim-git'
-NeoBundle 'jystic/thrift.vim'
 
 call neobundle#end()
 
