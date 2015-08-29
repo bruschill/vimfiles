@@ -68,9 +68,9 @@ NeoBundle 'sunaku/vim-ruby-minitest'
 NeoBundle 'cakebaker/scss-syntax.vim'
 
 "   javascript
-NeoBundleLazy 'pangloss/vim-javascript.git', {'autoload':{'filetypes':['javascript']}}
-NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
-NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload':{'filetypes':['javascript']}}
+NeoBundleLazy 'pangloss/vim-javascript.git', {'autoload':{'filetypes':['javascript', 'html']}}
+NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript', 'html']}}
+NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload':{'filetypes':['javascript', 'html']}}
 NeoBundle 'elzr/vim-json.git'
 
 "   go
@@ -78,7 +78,9 @@ NeoBundle 'fatih/vim-go', {
   \'build_commands': 'vim',
   \'build': {
     \'mac': "vim -c 'GoUpdateBinaries' -c 'qa!'"
-  \}
+  \},
+  \'lazy': 1,
+  \'autoload':{'filetypes':['go']}
 \}
 
 "   markup
