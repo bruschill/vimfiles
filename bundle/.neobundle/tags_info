@@ -22,7 +22,6 @@ vim-eunuch
 vim-git
 vim-go
 vim-javascript
-vim-javascript-syntax
 vim-json
 vim-markdown
 vim-misc
@@ -35,3 +34,4 @@ vim-tmux
 vim-tmux-focus-events
 vim-tmux-navigator
 vimproc.vim
+yajs.vim
