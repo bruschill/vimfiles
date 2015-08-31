@@ -14,7 +14,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " general
 NeoBundle 'Valloric/YouCompleteMe', {
   \'build': {
-    \'mac': 'sh -c "./install.sh --gocode-completer"'
+    \'mac': 'sh -c "./install.py --gocode-completer"'
   \}
 \}
 
