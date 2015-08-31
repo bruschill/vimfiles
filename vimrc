@@ -35,6 +35,11 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'regedarek/ZoomWin.git'
 NeoBundle 'bling/vim-airline'
+NeoBundle 'marijnh/tern_for_vim', {
+  \'build': {
+    \'mac': 'sh -c "npm install"'
+  \}
+\}
 
 " ctrlp-related
 NeoBundle 'ctrlpvim/ctrlp.vim'
@@ -56,15 +61,15 @@ NeoBundle 'NLKNguyen/papercolor-theme'
 
 " syntax
 "   ruby
-NeoBundle 'vim-ruby/vim-ruby.git'
-NeoBundle 'tpope/vim-rails.git'
-NeoBundle 'Keithbsmiley/rspec.vim.git'
-NeoBundle 'sunaku/vim-ruby-minitest'
-NeoBundle 'cakebaker/scss-syntax.vim'
+NeoBundleLazy 'vim-ruby/vim-ruby.git', {'autoload':{'filetypes':['ruby', 'eruby']}}
+NeoBundleLazy 'tpope/vim-rails.git', {'autoload':{'filetypes':['ruby', 'eruby']}}
+NeoBundleLazy 'Keithbsmiley/rspec.vim.git', {'autoload':{'filetypes':['ruby']}}
+NeoBundleLazy 'sunaku/vim-ruby-minitest', {'autoload':{'filetypes':['ruby']}}
 
 "   javascript
-NeoBundle 'pangloss/vim-javascript.git'
-NeoBundle 'othree/javascript-libraries-syntax.vim.git'
+NeoBundleLazy 'pangloss/vim-javascript.git', {'autoload':{'filetypes':['javascript', 'html']}}
+NeoBundleLazy 'othree/yajs.vim.git', {'autoload':{'filetypes':['javascript', 'html']}}
+NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload':{'filetypes':['javascript', 'html']}}
 NeoBundle 'elzr/vim-json.git'
 
 "   go
@@ -72,17 +77,19 @@ NeoBundle 'fatih/vim-go', {
   \'build_commands': 'vim',
   \'build': {
     \'mac': "vim -c 'GoUpdateBinaries' -c 'qa!'"
-  \}
+  \},
+  \'lazy': 1,
+  \'autoload':{'filetypes':['go']}
 \}
 
 "   markup
-NeoBundle 'othree/html5.vim.git'
-NeoBundle 'hail2u/vim-css3-syntax.git'
+NeoBundleLazy 'othree/html5.vim.git', {'autoload':{'filetypes':['html', 'javascript', 'eruby']}}
+NeoBundleLazy 'hail2u/vim-css3-syntax.git', {'autoload':{'filetypes':['html', 'css', 'eruby']}}
 NeoBundle 'plasticboy/vim-markdown.git'
+NeoBundle 'cakebaker/scss-syntax.vim'
 
 "   other
 NeoBundle 'tpope/vim-git'
-NeoBundle 'jystic/thrift.vim'
 
 call neobundle#end()
 
@@ -96,6 +103,7 @@ set background=dark
 color solarized
 
 set guifont=Source\ Code\ Pro:h12
+set noantialias
 
 "general
 set encoding=utf-8

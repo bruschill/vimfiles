@@ -11,7 +11,7 @@ rspec.vim
 scss-syntax.vim
 syntastic
 tcomment_vim
-thrift.vim
+tern_for_vim
 tmuxline.vim
 vim-airline
 vim-colors-solarized
@@ -34,3 +34,4 @@ vim-tmux
 vim-tmux-focus-events
 vim-tmux-navigator
 vimproc.vim
+yajs.vim
