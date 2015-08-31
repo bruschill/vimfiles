@@ -310,7 +310,6 @@ ControlP	ctrlp.txt	/*ControlP*
 Ctrl-sub-C	youcompleteme.txt	/*Ctrl-sub-C*
 CtrlP	ctrlp.txt	/*CtrlP*
 E227:-mapping-already-exists-for-blah	youcompleteme.txt	/*E227:-mapping-already-exists-for-blah*
-FixIt	youcompleteme.txt	/*FixIt*
 GLIBC_2.XX-not-found()	youcompleteme.txt	/*GLIBC_2.XX-not-found()*
 GetParent	youcompleteme.txt	/*GetParent*
 GetType	youcompleteme.txt	/*GetType*
@@ -326,15 +325,6 @@ ResetCtrlP	ctrlp.txt	/*ResetCtrlP*
 RestartServer	youcompleteme.txt	/*RestartServer*
 StartServer	youcompleteme.txt	/*StartServer*
 StopServer	youcompleteme.txt	/*StopServer*
-TernDef	tern.txt	/*TernDef*
-TernDefPreview	tern.txt	/*TernDefPreview*
-TernDefSplit	tern.txt	/*TernDefSplit*
-TernDefTab	tern.txt	/*TernDefTab*
-TernDoc	tern.txt	/*TernDoc*
-TernDocBrowse	tern.txt	/*TernDocBrowse*
-TernRefs	tern.txt	/*TernRefs*
-TernRename	tern.txt	/*TernRename*
-TernType	tern.txt	/*TernType*
 Vim:-Caught-deadly-signal-SEGV	youcompleteme.txt	/*Vim:-Caught-deadly-signal-SEGV*
 ZoomWin.txt	ZoomWin.txt	/*ZoomWin.txt*
 add_statusline_func	airline.txt	/*add_statusline_func*
@@ -993,15 +983,6 @@ tcomment#TextObjectInlineComment()	tcomment.txt	/*tcomment#TextObjectInlineComme
 tcomment-maps	tcomment.txt	/*tcomment-maps*
 tcomment-operator	tcomment.txt	/*tcomment-operator*
 tcomment.txt	tcomment.txt	/*tcomment.txt*
-tern-commands	tern.txt	/*tern-commands*
-tern-contents	tern.txt	/*tern-contents*
-tern-install	tern.txt	/*tern-install*
-tern-intro	tern.txt	/*tern-intro*
-tern-options	tern.txt	/*tern-options*
-tern-usage	tern.txt	/*tern-usage*
-tern.txt	tern.txt	/*tern.txt*
-tern_show_argument_hints	tern.txt	/*tern_show_argument_hints*
-tern_show_signature_in_pum	tern.txt	/*tern_show_signature_in_pum*
 tests-for-miscellaneous-vim-scripts	misc.txt	/*tests-for-miscellaneous-vim-scripts*
 tmux-navigator	tmux-navigator.txt	/*tmux-navigator*
 tmux-navigator-configuration	tmux-navigator.txt	/*tmux-navigator-configuration*
@@ -1197,7 +1178,7 @@ youcompleteme-i-get-annoying-messages-in-vims-status-area-when-i-type	youcomplet
 youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine	youcompleteme.txt	/*youcompleteme-i-get-weird-window-at-top-of-my-file-when-i-use-semantic-engine*
 youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting	youcompleteme.txt	/*youcompleteme-i-have-homebrew-python-and-or-macvim-cant-compile-sigabrt-when-starting*
 youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults	youcompleteme.txt	/*youcompleteme-im-trying-to-use-homebrew-vim-with-ycm-im-getting-segfaults*
-youcompleteme-install-ycm-with-neobundle-37	youcompleteme.txt	/*youcompleteme-install-ycm-with-neobundle-37*
+youcompleteme-install-ycm-with-neobundle-36	youcompleteme.txt	/*youcompleteme-install-ycm-with-neobundle-36*
 youcompleteme-installation	youcompleteme.txt	/*youcompleteme-installation*
 youcompleteme-intro	youcompleteme.txt	/*youcompleteme-intro*
 youcompleteme-introduction	youcompleteme.txt	/*youcompleteme-introduction*
@@ -1207,6 +1188,7 @@ youcompleteme-license	youcompleteme.txt	/*youcompleteme-license*
 youcompleteme-mac-os-x-super-quick-installation	youcompleteme.txt	/*youcompleteme-mac-os-x-super-quick-installation*
 youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu	youcompleteme.txt	/*youcompleteme-on-very-rare-occasions-vim-crashes-when-i-tab-through-completion-menu*
 youcompleteme-options	youcompleteme.txt	/*youcompleteme-options*
+youcompleteme-project-management	youcompleteme.txt	/*youcompleteme-project-management*
 youcompleteme-references	youcompleteme.txt	/*youcompleteme-references*
 youcompleteme-semantic-completion-for-other-languages	youcompleteme.txt	/*youcompleteme-semantic-completion-for-other-languages*
 youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal	youcompleteme.txt	/*youcompleteme-sometimes-it-takes-much-longer-to-get-semantic-completions-than-normal*
