@@ -97,13 +97,11 @@ filetype plugin indent on
 
 NeoBundleCheck
 
-set t_Co=256
 syntax on
 set background=dark
 color solarized
 
 set guifont=Source\ Code\ Pro:h12
-set noantialias
 
 "general
 set encoding=utf-8
