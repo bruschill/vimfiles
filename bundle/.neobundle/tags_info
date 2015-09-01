@@ -10,6 +10,7 @@ papercolor-theme
 rspec.vim
 scss-syntax.vim
 syntastic
+tagbar
 tcomment_vim
 tern_for_vim
 tmuxline.vim
