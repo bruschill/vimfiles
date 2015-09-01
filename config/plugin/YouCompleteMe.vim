@@ -8,3 +8,6 @@ let g:ycm_semantic_triggers =  {
   \'go, javascript, ruby, vim' : ['.']
 \}
 
+let g:ycm_filetype_specific_completion_to_disable = {
+\ 'gitcommit': 1
+\}
