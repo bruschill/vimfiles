@@ -73,16 +73,6 @@ NeoBundleLazy 'othree/yajs.vim.git', {'autoload':{'filetypes':['javascript', 'ht
 NeoBundleLazy 'othree/javascript-libraries-syntax.vim.git', {'autoload':{'filetypes':['javascript', 'html']}}
 NeoBundle 'elzr/vim-json.git'
 
-"   go
-NeoBundle 'fatih/vim-go', {
-  \'build_commands': 'vim',
-  \'build': {
-    \'mac': "vim -c 'GoUpdateBinaries' -c 'qa!'"
-  \},
-  \'lazy': 1,
-  \'autoload':{'filetypes':['go']}
-\}
-
 "   markup
 NeoBundleLazy 'othree/html5.vim.git', {'autoload':{'filetypes':['html', 'javascript', 'eruby']}}
 NeoBundleLazy 'hail2u/vim-css3-syntax.git', {'autoload':{'filetypes':['html', 'css', 'eruby']}}
