@@ -104,7 +104,6 @@ set background=dark
 color solarized
 
 set guifont=Source\ Code\ Pro:h12
-set noantialias
 
 "general
 set encoding=utf-8
