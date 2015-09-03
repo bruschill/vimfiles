@@ -91,6 +91,10 @@ NeoBundle 'cakebaker/scss-syntax.vim'
 
 "   other
 NeoBundle 'tpope/vim-git'
+NeoBundle 'solarnz/thrift.vim', {
+  \'lazy': 1,
+  \'autoload':{'filetypes':['thrift']}
+\}
 
 call neobundle#end()
 
