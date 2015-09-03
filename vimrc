@@ -167,6 +167,9 @@ endtry
 "setting tags directory
 set tags=~/.vim/tags
 
+"set clipoard to unnamed
+"set clipboard=unnamed
+
 for f in split(glob('~/.vim/config/general/*.vim'), '\n')
   exe 'source' f
 endfor
