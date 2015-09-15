@@ -4,6 +4,4 @@ tags/*
 .ctrlp
 
 bundle/*
-!bundle/.neobundle
 !bundle/neobundle.vim
-!bundle/neobundle.lock
